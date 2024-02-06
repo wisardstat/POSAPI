@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pos-api"
+version = "0.0.1"
+description = "API for POS Shop"
+authors = ["winzato <wisardstat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+fastapi = "\"uvicorn[standard]\""
+
+[tool.poetry.group.dev.dependencies]
+pydantic = "^2.6.1"
+email-validator = "^2.1.0.post1"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
