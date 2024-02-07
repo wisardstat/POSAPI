@@ -19,6 +19,8 @@ source .venv/myproject/bin/activate
 or
 # for windows
 venv\Scripts\activate.bat
+
+venv\Scripts\deactivate.bat
 ```
 
 ## Creare Project by poentry
@@ -41,6 +43,10 @@ poetry add fastapi "uvicorn[standard]" pydantic email-validator
 To launch uvicorn:
 ```
 uvicorn sql_app.main:app --reload
+```
+
+```
+python -m pip freeze > requirements.txt
 ```
 
 ## Refrence
