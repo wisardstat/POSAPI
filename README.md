@@ -45,6 +45,11 @@ To launch uvicorn:
 uvicorn sql_app.main:app --reload
 ```
 
+## Link เข้าเว็บ
+```
+http://127.0.0.1:8000/docs
+```
+
 ```
 python -m pip freeze > requirements.txt
 ```

@@ -25,14 +25,24 @@ async def get_vstockcard_list_all(skip: int = 0, limit: int = 10, db: Session = 
     return vstockcard
 
 @router.get("/vstockcard/report")
-async def get_vstockcard_list_report(brand_id:str = "", skip: int = 0, limit: int = 10, db: Session = Depends(get_db))-> List[dtos.vstockcard]:
+async def get_vstockcard_list_report(wh_id:str = ""
+                                     ,categoty_id:str = ""
+                                     ,brand_id:str = ""
+                                     ,type_rp:str = ""
+                                     ,skip: int = 0, limit: int = 100, db: Session = Depends(get_db))-> List[dtos.vstockcard]:
     
     print('*************************')
     print(' >> get_vstockcard_list_report ')
     print(' brand_id =',brand_id)
+    print(' categoty_id =',categoty_id)
 
-    vstockcard = usecase.getListReport(db, brand_id =brand_id
-                                                    , skip=skip, limit=limit)
+    vstockcard = usecase.getListReport(db
+                                        , wh_id = wh_id
+                                        , categoty_id = categoty_id
+                                        , brand_id =brand_id
+                                        , type_rp =type_rp
+                                        , skip=skip
+                                        , limit=limit)
     return vstockcard
 
 

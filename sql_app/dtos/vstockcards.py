@@ -18,8 +18,8 @@ class vstockcard(BaseModel):
     group_name: str | None = None
     brand_id: str | None = None
     brand_name: str | None = None
-    # model_id: str | None = None
-    #model_name: str | None = None
+    model_id: str | None = None
+    model_name: str | None = None
     pd_name: str | None = None
     color: str | None = None
 

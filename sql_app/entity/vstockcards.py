@@ -7,7 +7,7 @@ from ..database import Base
 class vstockcard(Base):
     
     __tablename__ = "vStockCard"
-
+    schema="dbo"
     seq         = Column(Integer, primary_key=True, index=True)
     doc_id      = Column(String(50))
     doc_date    = Column(DateTime,default=datetime.datetime.utcnow)
@@ -26,8 +26,8 @@ class vstockcard(Base):
     brand_id    = Column(String(50),  nullable=False ,default=None )
     brand_name  = Column(String(100),  nullable=False ,default=None )
 
-    # model_id    = Column(String(50),  nullable=False ,default=None )
-    # model_name  = Column(String(100),  nullable=False ,default=None )
+    model_id    = Column(String(50),  nullable=False ,default=None )
+    model_name  = Column(String(100),  nullable=False ,default=None )
     
     pd_name     = Column(String(100),  nullable=False ,default=None )
     color       = Column(String(50),  nullable=False ,default=None )
