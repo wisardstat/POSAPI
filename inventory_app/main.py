@@ -1,30 +1,25 @@
+# import logging
+# import configparser
+
 from typing import List
-
 from fastapi import Depends, FastAPI, HTTPException
-# from . import models,schemas
 from sqlalchemy.orm import Session
-
-# from .backup import schemas
-
 from .database import SessionLocal, engine , Base
-from .routers.v1 import warehouses,brands,vstockcards,categories 
+from .routers.v1 import warehouses,brands,vstockcards,categories,v_stockDailys 
 from .use_cases import warehouses as ucwh
 from .dtos import warehouses as dtos
-
 from fastapi.middleware.cors import CORSMiddleware
+from .loggings import  log
 
 Base.metadata.create_all(bind=engine)
 
-
+log.info('main - Reload')
 
 app = FastAPI()
 
 # ********* START - CORS **************************** 
 # แก้ไขปัญหา : blocked by CORS policy: No 'Access-Control-Allow-Origin'
-
-origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
+origins = [    
     "http://localhost",
     "http://localhost:8000",
     "http://localhost:4200",
@@ -55,5 +50,6 @@ app.include_router(brands.router, prefix="/v1", tags=["new"])
 app.include_router(warehouses.router, prefix="/v1", tags=["new"])
 app.include_router(vstockcards.router, prefix="/v1", tags=["new"])
 app.include_router(categories.router, prefix="/v1", tags=["new"])
+app.include_router(v_stockDailys.router, prefix="/v1", tags=["new"])
 
  

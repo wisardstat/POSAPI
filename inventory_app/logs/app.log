@@ -1,0 +1,14 @@
+root - WARNING - Admin logged out
+root - WARNING - Admin logged out
+root - WARNING - Admin logged out
+
+09-Feb-24 22:59:51 -WARNING- main - Reload
+09-Feb-24 23:00:04 -WARNING- main - Reload
+09-Feb-24 23:00:11 -WARNING- main - Reload
+09-Feb-24 23:00:13 -WARNING- main - Reload
+09-Feb-24 23:00:26 -WARNING- main - Reload
+09-Feb-24 23:00:33 -WARNING- main - Reload
+09-Feb-24 23:00:49 -INFO- main - Reload
+09-Feb-24 23:01:00 -INFO- router-warehouses -> read_warehouses
+09-Feb-24 23:01:04 -INFO- router-warehouses -> read_warehouses
+09-Feb-24 23:01:25 -INFO- router-vstockcard -> getVstockcardListAll

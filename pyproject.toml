@@ -17,6 +17,9 @@ pyodbc = "^5.1.0"
 mssql = "^1.0.1"
 sqlalchemy-orm = "^1.2.10"
 pydantic = "1.10.10"
+logging = "^0.4.9.6"
+configparser = "^6.0.0"
+quote = "^2.0.4"
 
 
 [tool.poetry.group.dev.dependencies]

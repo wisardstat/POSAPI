@@ -7,6 +7,7 @@ from fastapi import APIRouter,Depends, FastAPI, HTTPException
 from ...database import SessionLocal, engine
 from ...use_cases import categories as usecase
 from ...dtos import categories as dtos
+from ...loggings import  log
 
 router = APIRouter()
 
@@ -20,5 +21,8 @@ def get_db():
         
 @router.get("/category/")
 async def read_category(skip: int = 0, limit: int = 10, db: Session = Depends(get_db))-> List[dtos.categories]:
+    
+    log.info('router-category -> read_category')
+
     category = usecase.get_category_list(db, skip=skip, limit=limit)
     return category

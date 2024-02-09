@@ -43,6 +43,8 @@ poetry add fastapi "uvicorn[standard]" pydantic email-validator
 To launch uvicorn:
 ```
 uvicorn sql_app.main:app --reload
+
+uvicorn inventory_app.main:app --reload
 ```
 
 ## Link เข้าเว็บ

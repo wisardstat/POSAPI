@@ -14,8 +14,6 @@ def get_brand(db: Session, skip: int = 0, limit: int = 10):
         .offset(skip)
         .limit(limit)
         .all()
-    )
-
-    print(result)
-
+    ) 
+ 
     return result 
