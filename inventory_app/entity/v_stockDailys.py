@@ -26,11 +26,13 @@ class v_stockDaily(Base):
     model_id    = Column(String(50),  nullable=False ,default=None )
     model_name  = Column(String(100),  nullable=False ,default=None )
     
+    pd_id       = Column(String(50),  nullable=False ,default=None )
     pd_name     = Column(String(100),  nullable=False ,default=None )
     color       = Column(String(50),  nullable=False ,default=None )
 
     cost        = Column(Float,  nullable=True ,default=0 )    
     qty        = Column(Integer)    
+    qty_zero        = Column(Integer) 
     
     
     

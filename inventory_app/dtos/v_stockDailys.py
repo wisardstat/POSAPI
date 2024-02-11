@@ -48,3 +48,29 @@ class v_stockDailyGroupByModel(BaseModel):
     
     class Config:
         orm_mode = True        
+
+
+class v_stockDailyGroupByItem(BaseModel):
+    cc_id: str  # float
+    stock_date: date | None = None    
+    wh_id: str
+    wh_name: str        
+    group_name: str | None = None    
+    brand_name: str | None = None    
+    model_name: str | None = None    
+    pd_id: str | None = None    
+    pd_name: str | None = None    
+    qty: int | None = None
+    
+    class Config:
+        orm_mode = True        
+
+class v_stockDaily_totalQty(BaseModel):
+    cc_id: str  # float        
+    qty: int | None = None
+    qty_zero: int | None = None
+    pd_count: int | None = None
+    cost: float | None = None
+    
+    class Config:
+        orm_mode = True        

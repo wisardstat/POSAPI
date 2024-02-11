@@ -13,5 +13,4 @@ logging.basicConfig(filename=_path_log, filemode='a'
                     , format='%(asctime)s -%(levelname)s- %(message)s'
                     , datefmt='%d-%b-%y %H:%M:%S')
 # logging.warning('Request API')
-print('******** logging work!! *** ')
 log = logging 

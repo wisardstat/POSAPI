@@ -1,4 +1,3 @@
-
 import logging
 import configparser
 
@@ -6,7 +5,8 @@ from typing import List
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi import APIRouter
-#from ... import crud,schemas
+
+# from ... import crud,schemas
 from ...database import SessionLocal, engine
 from ...use_cases import brands as uc_brands
 from ...dtos import brands as dt_brand
@@ -22,13 +22,14 @@ def get_db():
         yield db
     finally:
         db.close()
-        
-@router.get("/brand/")
-async def read_brand(skip: int = 0, limit: int = 100, db: Session = Depends(get_db))-> List[dt_brand.brand]:
-    print('>> read_brand')
 
-    log.info('info-router-brand -> read_brand')
+
+@router.get("/brand/")
+async def read_brand(
+    skip: int = 0, limit: int = 100, db: Session = Depends(get_db)
+) -> List[dt_brand.brand]:
+    print(">> read_brand")
+
+    log.info("info-router-brand -> read_brand")
     brand = uc_brands.get_brand(db, skip=skip, limit=limit)
     return brand
-
-        
