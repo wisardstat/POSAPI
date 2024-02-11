@@ -4212,3 +4212,2964 @@ root - WARNING - Admin logged out
 11-Feb-24 07:53:29 -INFO- router-stockDailys -> stock_date =2021-09-27
 11-Feb-24 07:53:29 -INFO- router-stockDailys -> skip =0
 11-Feb-24 07:53:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:54:34 -INFO- main - Reload
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:54:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:54:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:56:29 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:56:29 -INFO- router-category -> read_category
+11-Feb-24 07:56:29 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:56:29 -INFO- router-Model -> read_model
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:56:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:57:03 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:57:03 -INFO- router-category -> read_category
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:57:03 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:57:03 -INFO- router-Model -> read_model
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:57:03 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:57:56 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:57:56 -INFO- router-category -> read_category
+11-Feb-24 07:57:56 -INFO- router-Model -> read_model
+11-Feb-24 07:57:56 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:57:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:16 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:58:16 -INFO- router-category -> read_category
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:17 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:58:17 -INFO- router-Model -> read_model
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:17 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:33 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:33 -INFO- router-category -> read_category
+11-Feb-24 07:58:33 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:58:33 -INFO- router-Model -> read_model
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:33 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:51 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:58:51 -INFO- router-category -> read_category
+11-Feb-24 07:58:51 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:58:51 -INFO- router-Model -> read_model
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:58:51 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:02 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:59:02 -INFO- router-category -> read_category
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:02 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:59:02 -INFO- router-Model -> read_model
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:02 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:24 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:59:24 -INFO- router-category -> read_category
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:24 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:59:24 -INFO- router-Model -> read_model
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:24 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:39 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:39 -INFO- router-category -> read_category
+11-Feb-24 07:59:39 -INFO- router-Model -> read_model
+11-Feb-24 07:59:39 -INFO- info-router-brand -> read_brand
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 07:59:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:07 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:00:07 -INFO- router-category -> read_category
+11-Feb-24 08:00:07 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:07 -INFO- router-Model -> read_model
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:11 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:00:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:02:14 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:02:14 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:02:14 -INFO- router-category -> read_category
+11-Feb-24 08:02:14 -INFO- router-Model -> read_model
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:02:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:06:25 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:06:25 -INFO- router-category -> read_category
+11-Feb-24 08:06:25 -INFO- router-Model -> read_model
+11-Feb-24 08:06:25 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:06:25 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:06:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:06:48 -INFO- router-category -> read_category
+11-Feb-24 08:06:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:06:48 -INFO- router-Model -> read_model
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:06:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:09:41 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:09:41 -INFO- router-category -> read_category
+11-Feb-24 08:09:41 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:09:41 -INFO- router-Model -> read_model
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:09:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:00 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:10:00 -INFO- router-category -> read_category
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:00 -INFO- router-Model -> read_model
+11-Feb-24 08:10:00 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:16 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:16 -INFO- router-category -> read_category
+11-Feb-24 08:10:16 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:10:16 -INFO- router-Model -> read_model
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:20 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:10:20 -INFO- router-category -> read_category
+11-Feb-24 08:10:20 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:10:20 -INFO- router-Model -> read_model
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:10:20 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:11:23 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:11:23 -INFO- router-category -> read_category
+11-Feb-24 08:11:23 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:11:23 -INFO- router-Model -> read_model
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:11:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:11:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:11:43 -INFO- router-category -> read_category
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:11:43 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:11:43 -INFO- router-Model -> read_model
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:11:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:13:26 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:13:26 -INFO- router-category -> read_category
+11-Feb-24 08:13:26 -INFO- router-Model -> read_model
+11-Feb-24 08:13:26 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:13:26 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:14:16 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:14:16 -INFO- router-category -> read_category
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:14:16 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:14:16 -INFO- router-Model -> read_model
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:14:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:14:43 -INFO- router-Model -> read_model
+11-Feb-24 08:14:43 -INFO- router-category -> read_category
+11-Feb-24 08:14:43 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:14:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:14:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:15:44 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:15:44 -INFO- router-category -> read_category
+11-Feb-24 08:15:44 -INFO- router-Model -> read_model
+11-Feb-24 08:15:44 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:15:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:15:56 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:15:56 -INFO- router-category -> read_category
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:15:56 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:15:56 -INFO- router-Model -> read_model
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:15:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:29 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:16:29 -INFO- router-category -> read_category
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:29 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:16:29 -INFO- router-Model -> read_model
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:46 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:46 -INFO- router-category -> read_category
+11-Feb-24 08:16:46 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:16:46 -INFO- router-Model -> read_model
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:46 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:56 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:16:56 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:16:56 -INFO- router-category -> read_category
+11-Feb-24 08:16:56 -INFO- router-Model -> read_model
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:16:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:05 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:17:05 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:05 -INFO- router-category -> read_category
+11-Feb-24 08:17:05 -INFO- router-Model -> read_model
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:05 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:09 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:17:10 -INFO- router-Model -> read_model
+11-Feb-24 08:17:10 -INFO- router-category -> read_category
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:10 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:46 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:17:46 -INFO- router-category -> read_category
+11-Feb-24 08:17:46 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:17:46 -INFO- router-Model -> read_model
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:46 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:54 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:17:54 -INFO- router-category -> read_category
+11-Feb-24 08:17:54 -INFO- router-Model -> read_model
+11-Feb-24 08:17:54 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:17:54 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:03 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:03 -INFO- router-category -> read_category
+11-Feb-24 08:18:03 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:03 -INFO- router-Model -> read_model
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:03 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:08 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:08 -INFO- router-category -> read_category
+11-Feb-24 08:18:08 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:08 -INFO- router-Model -> read_model
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:08 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:09 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:21 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:21 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:22 -INFO- router-category -> read_category
+11-Feb-24 08:18:22 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:22 -INFO- router-Model -> read_model
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:32 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:32 -INFO- router-category -> read_category
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:32 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:32 -INFO- router-Model -> read_model
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:39 -INFO- router-category -> read_category
+11-Feb-24 08:18:39 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:39 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:39 -INFO- router-Model -> read_model
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:52 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:52 -INFO- router-category -> read_category
+11-Feb-24 08:18:52 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:52 -INFO- router-Model -> read_model
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:52 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:59 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:18:59 -INFO- router-Model -> read_model
+11-Feb-24 08:18:59 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:18:59 -INFO- router-category -> read_category
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:18:59 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:07 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:07 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:19:07 -INFO- router-Model -> read_model
+11-Feb-24 08:19:07 -INFO- router-category -> read_category
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:53 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:19:53 -INFO- router-category -> read_category
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:19:53 -INFO- router-Model -> read_model
+11-Feb-24 08:19:53 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:19:53 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:13 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:20:13 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:20:13 -INFO- router-category -> read_category
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:13 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:14 -INFO- router-Model -> read_model
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:38 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:38 -INFO- router-category -> read_category
+11-Feb-24 08:20:38 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:20:38 -INFO- router-Model -> read_model
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:38 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:44 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:45 -INFO- router-category -> read_category
+11-Feb-24 08:20:45 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:20:45 -INFO- router-Model -> read_model
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:45 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:51 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:51 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:20:51 -INFO- router-category -> read_category
+11-Feb-24 08:20:51 -INFO- router-Model -> read_model
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:51 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:58 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:20:58 -INFO- router-category -> read_category
+11-Feb-24 08:20:58 -INFO- router-Model -> read_model
+11-Feb-24 08:20:58 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:20:58 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:21:27 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:21:27 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:21:27 -INFO- router-category -> read_category
+11-Feb-24 08:21:27 -INFO- router-Model -> read_model
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:21:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:22:31 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:22:31 -INFO- router-category -> read_category
+11-Feb-24 08:22:31 -INFO- router-Model -> read_model
+11-Feb-24 08:22:31 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:22:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:02 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:25:02 -INFO- router-category -> read_category
+11-Feb-24 08:25:02 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:25:02 -INFO- router-Model -> read_model
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:02 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:14 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:25:14 -INFO- router-category -> read_category
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:14 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:25:14 -INFO- router-Model -> read_model
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:20 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:25:20 -INFO- router-category -> read_category
+11-Feb-24 08:25:20 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:20 -INFO- router-Model -> read_model
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:20 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:22 -INFO- router-category -> read_category
+11-Feb-24 08:25:22 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:25:22 -INFO- router-Model -> read_model
+11-Feb-24 08:25:22 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:25:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:26:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:26:48 -INFO- router-category -> read_category
+11-Feb-24 08:26:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:26:48 -INFO- router-Model -> read_model
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:26:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:27:44 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:27:44 -INFO- router-category -> read_category
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:27:44 -INFO- router-Model -> read_model
+11-Feb-24 08:27:44 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:27:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:15 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:28:15 -INFO- router-category -> read_category
+11-Feb-24 08:28:15 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:15 -INFO- router-Model -> read_model
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:15 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:28 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:28:28 -INFO- router-category -> read_category
+11-Feb-24 08:28:28 -INFO- router-Model -> read_model
+11-Feb-24 08:28:28 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:35 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:28:35 -INFO- router-category -> read_category
+11-Feb-24 08:28:35 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:28:35 -INFO- router-Model -> read_model
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:35 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:59 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:28:59 -INFO- router-category -> read_category
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:28:59 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:28:59 -INFO- router-Model -> read_model
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:28:59 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:22 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:29:22 -INFO- router-category -> read_category
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:22 -INFO- router-Model -> read_model
+11-Feb-24 08:29:22 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:22 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:42 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:29:42 -INFO- router-category -> read_category
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:42 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:29:42 -INFO- router-Model -> read_model
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:52 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 08:29:52 -INFO- router-category -> read_category
+11-Feb-24 08:29:52 -INFO- router-Model -> read_model
+11-Feb-24 08:29:52 -INFO- info-router-brand -> read_brand
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> skip =0
+11-Feb-24 08:29:52 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:07 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:21:07 -INFO- router-category -> read_category
+11-Feb-24 09:21:07 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:21:07 -INFO- router-Model -> read_model
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:08 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:31 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:21:31 -INFO- router-category -> read_category
+11-Feb-24 09:21:31 -INFO- router-Model -> read_model
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:31 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:31 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:50 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:21:50 -INFO- router-category -> read_category
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:21:50 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:21:50 -INFO- router-Model -> read_model
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:21:50 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:22:49 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:22:49 -INFO- router-category -> read_category
+11-Feb-24 09:22:49 -INFO- router-Model -> read_model
+11-Feb-24 09:22:49 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:22:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:22:50 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:22:56 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:22:56 -INFO- router-category -> read_category
+11-Feb-24 09:22:56 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:22:56 -INFO- router-Model -> read_model
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:22:56 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:14 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:23:14 -INFO- router-category -> read_category
+11-Feb-24 09:23:14 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:14 -INFO- router-Model -> read_model
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:14 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:28 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:23:28 -INFO- router-category -> read_category
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:28 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:23:28 -INFO- router-Model -> read_model
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:44 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:23:44 -INFO- router-category -> read_category
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:23:44 -INFO- router-Model -> read_model
+11-Feb-24 09:23:44 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:23:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:24:35 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:24:35 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:24:35 -INFO- router-category -> read_category
+11-Feb-24 09:24:35 -INFO- router-Model -> read_model
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:24:35 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:25:23 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:25:23 -INFO- router-category -> read_category
+11-Feb-24 09:25:23 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:25:23 -INFO- router-Model -> read_model
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:25:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:27:07 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:27:07 -INFO- router-category -> read_category
+11-Feb-24 09:27:07 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:27:07 -INFO- router-Model -> read_model
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:27:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:27:23 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:27:23 -INFO- router-category -> read_category
+11-Feb-24 09:27:23 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:27:23 -INFO- router-Model -> read_model
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:27:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:27 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:28:27 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:28:27 -INFO- router-category -> read_category
+11-Feb-24 09:28:27 -INFO- router-Model -> read_model
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:28:48 -INFO- router-category -> read_category
+11-Feb-24 09:28:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:48 -INFO- router-Model -> read_model
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:49 -INFO- router-category -> read_category
+11-Feb-24 09:28:49 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:28:49 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:28:49 -INFO- router-Model -> read_model
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:28:50 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:06 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:06 -INFO- router-Model -> read_model
+11-Feb-24 09:30:06 -INFO- router-category -> read_category
+11-Feb-24 09:30:06 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:21 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:21 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:30:21 -INFO- router-category -> read_category
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:21 -INFO- router-Model -> read_model
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:21 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:30 -INFO- router-category -> read_category
+11-Feb-24 09:30:30 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:30 -INFO- router-Model -> read_model
+11-Feb-24 09:30:30 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:37 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:37 -INFO- router-category -> read_category
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:37 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:37 -INFO- router-Model -> read_model
+11-Feb-24 09:30:37 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:38 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:42 -INFO- router-category -> read_category
+11-Feb-24 09:30:42 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:42 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:30:42 -INFO- router-Model -> read_model
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:43 -INFO- router-category -> read_category
+11-Feb-24 09:30:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:30:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:30:43 -INFO- router-Model -> read_model
+11-Feb-24 09:30:43 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:31:04 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:31:04 -INFO- router-category -> read_category
+11-Feb-24 09:31:04 -INFO- router-Model -> read_model
+11-Feb-24 09:31:04 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:04 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:31:30 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:31:30 -INFO- router-category -> read_category
+11-Feb-24 09:31:30 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:31:30 -INFO- router-Model -> read_model
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:31:39 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:31:39 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:31:39 -INFO- router-category -> read_category
+11-Feb-24 09:31:39 -INFO- router-Model -> read_model
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:31:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:32:15 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:32:15 -INFO- router-category -> read_category
+11-Feb-24 09:32:15 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:32:15 -INFO- router-Model -> read_model
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:32:15 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:32:42 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:32:42 -INFO- router-category -> read_category
+11-Feb-24 09:32:42 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:32:42 -INFO- router-Model -> read_model
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:32:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:09 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:09 -INFO- router-category -> read_category
+11-Feb-24 09:33:09 -INFO- router-Model -> read_model
+11-Feb-24 09:33:09 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:09 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:16 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:16 -INFO- router-category -> read_category
+11-Feb-24 09:33:16 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:16 -INFO- router-Model -> read_model
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:45 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:45 -INFO- router-category -> read_category
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:45 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:45 -INFO- router-Model -> read_model
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:45 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:48 -INFO- router-category -> read_category
+11-Feb-24 09:33:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:48 -INFO- router-Model -> read_model
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:48 -INFO- router-category -> read_category
+11-Feb-24 09:33:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:48 -INFO- router-Model -> read_model
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:52 -INFO- router-Model -> read_model
+11-Feb-24 09:33:52 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:33:52 -INFO- router-category -> read_category
+11-Feb-24 09:33:52 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:52 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:33:53 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:34:31 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:34:31 -INFO- router-Model -> read_model
+11-Feb-24 09:34:31 -INFO- router-category -> read_category
+11-Feb-24 09:34:31 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:34:31 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:34:32 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:34:32 -INFO- router-category -> read_category
+11-Feb-24 09:34:32 -INFO- router-Model -> read_model
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:34:32 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:34:32 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:15 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:35:15 -INFO- router-category -> read_category
+11-Feb-24 09:35:15 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:16 -INFO- router-Model -> read_model
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:16 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:18 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:35:18 -INFO- router-category -> read_category
+11-Feb-24 09:35:18 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:35:18 -INFO- router-Model -> read_model
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:18 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:26 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:35:26 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:35:26 -INFO- router-Model -> read_model
+11-Feb-24 09:35:26 -INFO- router-category -> read_category
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:47 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:35:47 -INFO- router-category -> read_category
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:47 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:35:47 -INFO- router-Model -> read_model
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:47 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:47 -INFO- router-category -> read_category
+11-Feb-24 09:35:47 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:35:48 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:35:48 -INFO- router-Model -> read_model
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:35:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> type_rp =NONE
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:38:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> type_rp =EXISTS
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> type_rp =EXISTS
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:38:57 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:39:38 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:39:38 -INFO- router-category -> read_category
+11-Feb-24 09:39:38 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:39:38 -INFO- router-Model -> read_model
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:39:38 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:39:39 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:39:39 -INFO- router-category -> read_category
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:39:39 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:39:39 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:39:39 -INFO- router-Model -> read_model
+11-Feb-24 09:41:20 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:41:20 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:41:20 -INFO- router-category -> read_category
+11-Feb-24 09:41:20 -INFO- router-Model -> read_model
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:41:21 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:41:23 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:41:23 -INFO- router-Model -> read_model
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:41:23 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:41:23 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:41:23 -INFO- router-category -> read_category
+11-Feb-24 09:42:07 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:42:07 -INFO- router-Model -> read_model
+11-Feb-24 09:42:07 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:42:07 -INFO- router-category -> read_category
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:42:07 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:42:10 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:42:10 -INFO- router-category -> read_category
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:42:10 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:42:10 -INFO- router-Model -> read_model
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:42:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:43:06 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:43:06 -INFO- router-category -> read_category
+11-Feb-24 09:43:06 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:43:06 -INFO- router-Model -> read_model
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:43:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:01 -INFO- router-category -> read_category
+11-Feb-24 09:44:01 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:44:01 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:01 -INFO- router-Model -> read_model
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:01 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:44:01 -INFO- router-category -> read_category
+11-Feb-24 09:44:01 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:01 -INFO- router-Model -> read_model
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:01 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:42 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:44:42 -INFO- router-category -> read_category
+11-Feb-24 09:44:42 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:44:42 -INFO- router-Model -> read_model
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:42 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:43 -INFO- router-category -> read_category
+11-Feb-24 09:44:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:44:43 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:44:43 -INFO- router-Model -> read_model
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:44:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:00 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:00 -INFO- router-category -> read_category
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:00 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:00 -INFO- router-Model -> read_model
+11-Feb-24 09:45:00 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:00 -INFO- router-category -> read_category
+11-Feb-24 09:45:00 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:00 -INFO- router-Model -> read_model
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:00 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:27 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:27 -INFO- router-category -> read_category
+11-Feb-24 09:45:27 -INFO- router-Model -> read_model
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:27 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:28 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:28 -INFO- router-Model -> read_model
+11-Feb-24 09:45:28 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:28 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:28 -INFO- router-category -> read_category
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:28 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:41 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:41 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:41 -INFO- router-category -> read_category
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:41 -INFO- router-Model -> read_model
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:41 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:41 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:41 -INFO- router-category -> read_category
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:41 -INFO- router-Model -> read_model
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:41 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:48 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:48 -INFO- router-category -> read_category
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:48 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:49 -INFO- router-Model -> read_model
+11-Feb-24 09:45:49 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:49 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:45:49 -INFO- router-Model -> read_model
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:45:49 -INFO- router-category -> read_category
+11-Feb-24 09:45:49 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:45:49 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:46:10 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:46:10 -INFO- router-category -> read_category
+11-Feb-24 09:46:10 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:46:10 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:46:10 -INFO- router-Model -> read_model
+11-Feb-24 09:46:10 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:46:10 -INFO- router-category -> read_category
+11-Feb-24 09:46:10 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:46:10 -INFO- router-Model -> read_model
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:46:11 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:47:06 -INFO- router-category -> read_category
+11-Feb-24 09:47:06 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:47:06 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:47:06 -INFO- router-Model -> read_model
+11-Feb-24 09:47:06 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:47:06 -INFO- router-category -> read_category
+11-Feb-24 09:47:06 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:47:06 -INFO- router-Model -> read_model
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:47:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:05 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:55:05 -INFO- router-category -> read_category
+11-Feb-24 09:55:05 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:55:05 -INFO- router-Model -> read_model
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:05 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:05 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:05 -INFO- router-Model -> read_model
+11-Feb-24 09:55:06 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:06 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:06 -INFO- router-category -> read_category
+11-Feb-24 09:55:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:55:43 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:55:43 -INFO- router-category -> read_category
+11-Feb-24 09:55:43 -INFO- router-Model -> read_model
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:43 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:43 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:55:43 -INFO- router-Model -> read_model
+11-Feb-24 09:55:44 -INFO- router-category -> read_category
+11-Feb-24 09:55:44 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:55:44 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:56:29 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:56:29 -INFO- router-category -> read_category
+11-Feb-24 09:56:29 -INFO- router-Model -> read_model
+11-Feb-24 09:56:29 -INFO- info-router-brand -> read_brand
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:56:29 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:56:30 -INFO- router-warehouses -> read_warehouses
+11-Feb-24 09:56:30 -INFO- router-category -> read_category
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> +++++++++++++++++++
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> getListGroupByItem
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> brand_id =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> categoty_id =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> wh_id =W001
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> type_rp =
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> stock_date =2021-09-27
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> skip =0
+11-Feb-24 09:56:30 -INFO- router-stockDailys -> limit =1000
+11-Feb-24 09:56:30 -INFO- router-Model -> read_model
+11-Feb-24 09:56:30 -INFO- info-router-brand -> read_brand
