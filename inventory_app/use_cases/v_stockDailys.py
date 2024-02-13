@@ -98,6 +98,7 @@ def getListGroupByModel(
     brand_id: str = "",
     type_rp: str = "",
     stock_date: str = "",
+    find_pdname: str = "",
     skip: int = 0,
     limit: int = 100,
 ):
@@ -143,6 +144,10 @@ def getListGroupByModel(
                     and_(ent.v_stockDaily.qty > 0, type_rp == "EXISTS"),
                     and_(ent.v_stockDaily.qty == 0, type_rp == "NONE"),
                     and_(type_rp == ""),
+                ),
+                or_(
+                    ent.v_stockDaily.pd_name.ilike(f'%{find_pdname}%') ,
+                    find_pdname == "", 
                 ),
             )
         )

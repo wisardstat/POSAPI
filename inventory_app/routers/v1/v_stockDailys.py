@@ -70,6 +70,7 @@ async def getListGroupByModel(
     brand_id: str = "",
     type_rp: str = "",
     stock_date: str = "",
+    find_pdname: str = "",
     skip: int = 0,
     limit: int = 100,
     db: Session = Depends(get_db),
@@ -93,6 +94,7 @@ async def getListGroupByModel(
         brand_id=brand_id,
         type_rp=type_rp,
         stock_date=stock_date,
+        find_pdname =find_pdname,
         skip=skip,
         limit=limit,
     )
