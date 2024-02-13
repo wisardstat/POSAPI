@@ -7173,3 +7173,26 @@ root - WARNING - Admin logged out
 11-Feb-24 09:56:30 -INFO- router-stockDailys -> limit =1000
 11-Feb-24 09:56:30 -INFO- router-Model -> read_model
 11-Feb-24 09:56:30 -INFO- info-router-brand -> read_brand
+13-Feb-24 18:27:06 -INFO- main - Reload
+13-Feb-24 18:27:16 -INFO- router-warehouses -> read_warehouses
+13-Feb-24 18:27:16 -INFO- router-category -> read_category
+13-Feb-24 18:27:16 -INFO- info-router-brand -> read_brand
+13-Feb-24 18:27:16 -INFO- router-Model -> read_model
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> +++++++++++++++++++
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> getListGroupByItem
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> brand_id =0
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> categoty_id =0
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> wh_id =W001
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> type_rp =
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> stock_date =2021-09-27
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> skip =0
+13-Feb-24 18:27:17 -INFO- router-stockDailys -> limit =1000
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> +++++++++++++++++++
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> getListGroupByItem
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> brand_id =0
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> categoty_id =0
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> wh_id =W001
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> type_rp =
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> stock_date =2021-09-27
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> skip =0
+13-Feb-24 18:27:18 -INFO- router-stockDailys -> limit =1000
