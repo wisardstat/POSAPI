@@ -1,2 +1,3 @@
 venv/
 inventory_app/logs/
+inventory_app/config.ini
