@@ -6,7 +6,7 @@ from ..database import Base
 
 class vstockcard(Base):
     
-    __tablename__ = "vStockCard"
+    __tablename__ = "v_stockCard"
     schema="dbo"
     seq         = Column(Integer, primary_key=True, index=True)
     doc_id      = Column(String(50))
@@ -38,6 +38,9 @@ class vstockcard(Base):
     qty_abs    = Column(Integer)
     price      = Column(Float,  nullable=True ,default=0 )
     Total      = Column(Float,  nullable=True ,default=0 )
+
+    cust_id     = Column(String(100),  nullable=False ,default=None )
+    cust_fname  = Column(String(200),  nullable=False ,default=None )
 
     cc_id       = Column(String(10))
     

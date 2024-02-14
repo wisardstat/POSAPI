@@ -34,3 +34,30 @@ class vstockcard(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+
+class vstockcard_getListByDoc(BaseModel):    
+    wh_name: str
+    doc_date: datetime | None = None    
+    date_in: datetime | None = None        
+    doc_id: str    
+    type_doc: str    
+    type_doc_id: str    
+    cust_fname: str    
+    count: int | None = None
+    qty: int | None = None
+    amt_cost: float | None = None
+    amt_price: float | None = None
+ 
+    class Config:
+        orm_mode = True
+
+class vstockcard_getListByDoc_Total(BaseModel):        
+    count: int | None = None
+    qty: int | None = None
+    amt_cost: float | None = None
+    amt_price: float | None = None
+ 
+    class Config:
+        orm_mode = True        
