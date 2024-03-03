@@ -81,8 +81,21 @@ class vstockcard_getListByItem(BaseModel):
     
     count: int | None = None
     qty: int | None = None
+    qty_abs: int | None = None
     amt_cost: float | None = None
     amt_price: float | None = None
  
     class Config:
         orm_mode = True
+
+
+class vstockcard_getListByItem_Total(BaseModel):    
+    
+    count: int | None = None
+    qty: int | None = None
+    qty_abs: int | None = None
+    amt_cost: float | None = None
+    amt_price: float | None = None
+ 
+    class Config:
+        orm_mode = True        

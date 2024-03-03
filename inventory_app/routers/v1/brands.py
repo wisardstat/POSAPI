@@ -33,3 +33,23 @@ async def read_brand(
     log.info("info-router-brand -> read_brand")
     brand = uc_brands.get_brand(db, skip=skip, limit=limit)
     return brand
+
+
+@router.post("/brand/add", response_model=dt_brand.brand)
+def create_brand(bd: dt_brand.brandCreate,
+                      db: Session = Depends(get_db)):
+
+    log.info("router-brand -> create_warehouse")
+
+    print('brand_name==>',bd.brand_name)
+    
+    db_brand = uc_brands.get_brand_single(db, brand_name = bd.brand_name)
+    
+    if db_brand:                
+        print("Error!!! ==> brand_name have existed ")
+        
+        raise HTTPException(status_code=400, detail="Brand have existed !!")
+        log.error("router-brand -> brand have existed !!")
+        
+    print('+++ ADD +++')
+    return uc_brands.create_brand(db=db, brand=bd)
