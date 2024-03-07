@@ -5,7 +5,7 @@ from typing import List
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from .database import SessionLocal, engine , Base
-from .routers.v1 import warehouses,brands,vstockcards,categories,v_stockDailys,models ,type_doc
+from .routers.v1 import warehouses,brands,vstockcards,categories,v_stockDailys,models ,type_doc,genidrandom
 from .use_cases import warehouses as ucwh
 from .dtos import warehouses as dtos
 from fastapi.middleware.cors import CORSMiddleware
@@ -53,5 +53,6 @@ app.include_router(warehouses.router, prefix="/v1", tags=["new"])
 app.include_router(vstockcards.router, prefix="/v1", tags=["new"])
 app.include_router(categories.router, prefix="/v1", tags=["new"])
 app.include_router(v_stockDailys.router, prefix="/v1", tags=["new"])
+app.include_router(genidrandom.router, prefix="/v1", tags=["new"])
 
  
