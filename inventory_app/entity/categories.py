@@ -12,5 +12,6 @@ class tbcategory(Base):
     group_name = Column(String(255))
     group_sup  = Column(String(255))
     group_type = Column(String(255))
+    group_emei = Column(String(1))
     cc_id      = Column(String(3))
     

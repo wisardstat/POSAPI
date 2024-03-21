@@ -6,11 +6,7 @@ from sqlalchemy.exc import IntegrityError
 
 def get_listidrandom(db: Session, crtid: str ,frm: str, chk_cc_id:int, cc_id:str):
     print("get_listidrandom")
-    print("crtid=>",crtid)
-    print("frm=>",frm)
-    print("chk_cc_id=>",chk_cc_id)
-    print("cc_id=>",cc_id)
-    
+
     # Build the filter criteria
     
     criteria = and_(
@@ -33,11 +29,7 @@ def get_listidrandom(db: Session, crtid: str ,frm: str, chk_cc_id:int, cc_id:str
 def get_IDNum(db: Session, crtid: str ,frm: str, chk_cc_id:int, cc_id:str):
     
     print("get_IDNum")
-    print("crtid=>",crtid)
-    print("frm=>",frm)
-    print("chk_cc_id=>",chk_cc_id)
-    print("cc_id=>",cc_id)
-    
+
     # Build the filter criteria
     
     criteria = and_(
@@ -76,9 +68,6 @@ def create_idrandom(db: Session, crtid: str ,frm: str, type_doc:str, id_num:str,
 def update_IDNum(db: Session, crtid: str, cc_id: str, new_id_num: str):
     try:
         print("update_IDNum")
-        print("crtid=>",crtid)
-        print("new_id_num=>",new_id_num)
-        print("cc_id=>",cc_id)
 
         criteria = and_(
             et_idrandom.TbIdRandom.CrtID == crtid,
