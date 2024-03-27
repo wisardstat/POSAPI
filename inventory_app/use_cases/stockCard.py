@@ -29,7 +29,7 @@ def add_StockCard(db: Session, item: stockIn.StockItem , vendor_id:str, vendor_n
                             ,bar_code = item.bar_code  
                             ,doc_id = item.doc_id
                             ,cost = item.cost
-                            #,doc_date = item.doc_date  
+                            ,doc_date = formatted_date 
                             ,type_doc = 1 
                             ,wh_id = wh_id
                             ,unit_id = 1

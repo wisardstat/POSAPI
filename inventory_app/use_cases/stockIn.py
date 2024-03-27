@@ -12,6 +12,10 @@ def add_stockIn_h(db: Session,request: stockIn.StockInRequest):
         date_now = now.replace(hour=0, minute=0, second=0, microsecond=0)
         formatted_date = date_now.strftime("%Y-%m-%d %H:%M:%S")
         print("add_stockIn_h")
+
+        # if (request.vendor_name==""):        
+        #     request.vendor_name="ไม่ระบุ"
+        
         new_stock_in_h = stockInH.TbStockInH(
             doc_id= request.doc_id,
             doc_date= formatted_date,

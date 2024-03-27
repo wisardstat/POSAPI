@@ -9291,3 +9291,446 @@
 17-Feb-24 15:09:03 -INFO- router-brand -> create_warehouse
 21-Feb-24 20:06:39 -INFO- main - Reload
 03-Mar-24 20:15:18 -INFO- main - Reload
+04-Mar-24 21:46:01 -INFO- main - Reload
+04-Mar-24 21:46:05 -INFO- router-warehouses -> read_warehouses
+04-Mar-24 21:46:05 -INFO- router-category -> read_category
+04-Mar-24 21:46:05 -INFO- info-router-brand -> read_brand
+04-Mar-24 21:46:05 -INFO- router-Model -> read_model
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> +++++++++++++++++++
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> getListGroupByItem
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> brand_id =0
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> categoty_id =0
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> wh_id =W001
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> type_rp =
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> stock_date =2024-02-13
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> skip =0
+04-Mar-24 21:46:05 -INFO- router-stockDailys -> limit =1000
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> +++++++++++++++++++
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> getListGroupByItem
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> brand_id =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> categoty_id =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> wh_id =W001
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> type_rp =
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> stock_date =2024-02-13
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> skip =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> limit =1000
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> +++++++++++++++++++
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> getListGroupByItem
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> brand_id =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> categoty_id =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> wh_id =W001
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> type_rp =
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> stock_date =2024-02-13
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> skip =0
+04-Mar-24 21:46:06 -INFO- router-stockDailys -> limit =1000
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> +++++++++++++++++++
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> getListGroupByItem
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> brand_id =0
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> categoty_id =0
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> wh_id =W001
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> type_rp =
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> stock_date =2024-02-13
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> skip =0
+04-Mar-24 21:46:07 -INFO- router-stockDailys -> limit =1000
+04-Mar-24 21:46:09 -INFO- router-warehouses -> read_warehouses
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> getListByDoc
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> wh_id =W001
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> type_doc_id =SI
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> skip =0
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> limit =1000
+04-Mar-24 21:46:09 -INFO- router-vstockcard -> doc_date =2024-02-13
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> getListByDoc_Total
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> wh_id =W001
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> type_doc_id =SI
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> skip =0
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> limit =1000
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+04-Mar-24 21:46:12 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+04-Mar-24 21:46:12 -INFO- router-Model -> read_model
+04-Mar-24 21:46:13 -INFO- info-router-brand -> read_brand
+04-Mar-24 21:46:13 -INFO- router-category -> read_category
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> getListByDoc
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> wh_id =W001
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> type_doc_id =SI
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> skip =0
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> limit =1000
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> doc_date =2024-02-13
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> getListByDoc_Total
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> wh_id =W001
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> type_doc_id =SI
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> skip =0
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> limit =1000
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+04-Mar-24 21:46:13 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+04-Mar-24 22:06:12 -INFO- router-category -> read_category
+04-Mar-24 22:06:12 -INFO- router-Model -> read_model
+04-Mar-24 22:06:12 -INFO- info-router-brand -> read_brand
+04-Mar-24 22:22:28 -INFO- info-router-brand -> read_brand
+04-Mar-24 22:22:28 -INFO- router-category -> read_category
+04-Mar-24 22:22:28 -INFO- router-Model -> read_model
+19-Mar-24 21:33:23 -INFO- main - Reload
+19-Mar-24 21:38:50 -INFO- router-category -> read_category
+19-Mar-24 21:38:50 -INFO- info-router-brand -> read_brand
+19-Mar-24 21:38:50 -INFO- router-Model -> read_model
+19-Mar-24 21:39:03 -INFO- router-warehouses -> read_warehouses
+19-Mar-24 21:39:03 -INFO- router-category -> read_category
+19-Mar-24 21:39:03 -INFO- info-router-brand -> read_brand
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> GroupByModel
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> brand_id =0
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> categoty_id =0
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> wh_id =W001
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> type_rp =
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> stock_date =2024-02-13
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> skip =0
+19-Mar-24 21:39:03 -INFO- router-stockDailys -> limit =1000
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> +++++++++++++++++++
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> getListGroupByItem
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> brand_id =0
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> categoty_id =0
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> wh_id =W001
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> type_rp =
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> stock_date =2024-02-13
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> skip =0
+19-Mar-24 21:39:05 -INFO- router-stockDailys -> limit =1000
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> GroupByModel
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> brand_id =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> categoty_id =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> wh_id =W001
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> type_rp =
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> stock_date =2024-02-13
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> skip =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> limit =1000
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> +++++++++++++++++++
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> getListGroupByItem
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> brand_id =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> categoty_id =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> wh_id =W001
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> type_rp =
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> stock_date =2024-02-13
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> skip =0
+19-Mar-24 21:39:06 -INFO- router-stockDailys -> limit =1000
+21-Mar-24 20:57:11 -INFO- main - Reload
+21-Mar-24 20:58:28 -INFO- router-Model -> read_model
+21-Mar-24 20:58:28 -INFO- info-router-brand -> read_brand
+21-Mar-24 20:58:28 -INFO- router-category -> read_category
+21-Mar-24 21:03:17 -INFO- router-category -> read_category
+21-Mar-24 21:03:17 -INFO- router-Model -> read_model
+21-Mar-24 21:03:17 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:03:35 -INFO- router-category -> read_category
+21-Mar-24 21:03:35 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:03:35 -INFO- router-Model -> read_model
+21-Mar-24 21:08:37 -INFO- router-category -> read_category
+21-Mar-24 21:08:37 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:08:37 -INFO- router-Model -> read_model
+21-Mar-24 21:15:11 -INFO- router-category -> read_category
+21-Mar-24 21:15:11 -INFO- router-Model -> read_model
+21-Mar-24 21:15:11 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:15:48 -INFO- router-category -> read_category
+21-Mar-24 21:15:48 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:15:48 -INFO- router-Model -> read_model
+21-Mar-24 21:15:49 -INFO- router-category -> read_category
+21-Mar-24 21:15:49 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:15:49 -INFO- router-Model -> read_model
+21-Mar-24 21:15:53 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:15:53 -INFO- router-category -> read_category
+21-Mar-24 21:15:53 -INFO- router-Model -> read_model
+21-Mar-24 21:16:15 -INFO- router-category -> read_category
+21-Mar-24 21:16:15 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:16:15 -INFO- router-Model -> read_model
+21-Mar-24 21:16:19 -INFO- router-category -> read_category
+21-Mar-24 21:16:19 -INFO- router-Model -> read_model
+21-Mar-24 21:16:19 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:16:30 -INFO- router-category -> read_category
+21-Mar-24 21:16:30 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:16:30 -INFO- router-Model -> read_model
+21-Mar-24 21:16:52 -INFO- router-category -> read_category
+21-Mar-24 21:16:52 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:16:52 -INFO- router-Model -> read_model
+21-Mar-24 21:17:10 -INFO- router-category -> read_category
+21-Mar-24 21:17:10 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:17:10 -INFO- router-Model -> read_model
+21-Mar-24 21:17:12 -INFO- router-Model -> read_model
+21-Mar-24 21:17:12 -INFO- router-category -> read_category
+21-Mar-24 21:17:12 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:21:47 -INFO- router-category -> read_category
+21-Mar-24 21:21:47 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:21:47 -INFO- router-Model -> read_model
+21-Mar-24 21:21:51 -INFO- router-category -> read_category
+21-Mar-24 21:21:51 -INFO- router-Model -> read_model
+21-Mar-24 21:21:51 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:24:18 -INFO- router-category -> read_category
+21-Mar-24 21:24:18 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:24:18 -INFO- router-Model -> read_model
+21-Mar-24 21:24:20 -INFO- router-category -> read_category
+21-Mar-24 21:24:20 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:24:20 -INFO- router-Model -> read_model
+21-Mar-24 21:25:03 -INFO- router-category -> read_category
+21-Mar-24 21:25:03 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:25:03 -INFO- router-Model -> read_model
+21-Mar-24 21:25:16 -INFO- router-category -> read_category
+21-Mar-24 21:25:16 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:25:16 -INFO- router-Model -> read_model
+21-Mar-24 21:25:24 -INFO- router-category -> read_category
+21-Mar-24 21:25:24 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:25:24 -INFO- router-Model -> read_model
+21-Mar-24 21:25:27 -INFO- router-category -> read_category
+21-Mar-24 21:25:27 -INFO- router-Model -> read_model
+21-Mar-24 21:25:27 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:27:04 -INFO- router-category -> read_category
+21-Mar-24 21:27:04 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:27:04 -INFO- router-Model -> read_model
+21-Mar-24 21:28:07 -INFO- router-category -> read_category
+21-Mar-24 21:28:07 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:28:07 -INFO- router-Model -> read_model
+21-Mar-24 21:28:21 -INFO- router-category -> read_category
+21-Mar-24 21:28:21 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:28:21 -INFO- router-Model -> read_model
+21-Mar-24 21:28:23 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:28:23 -INFO- router-category -> read_category
+21-Mar-24 21:28:23 -INFO- router-Model -> read_model
+21-Mar-24 21:28:25 -INFO- router-category -> read_category
+21-Mar-24 21:28:25 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:28:25 -INFO- router-Model -> read_model
+21-Mar-24 21:28:37 -INFO- router-category -> read_category
+21-Mar-24 21:28:37 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:28:37 -INFO- router-Model -> read_model
+21-Mar-24 21:29:12 -INFO- router-category -> read_category
+21-Mar-24 21:29:12 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:29:13 -INFO- router-Model -> read_model
+21-Mar-24 21:31:45 -INFO- router-category -> read_category
+21-Mar-24 21:31:45 -INFO- router-Model -> read_model
+21-Mar-24 21:31:45 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:31:52 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:31:52 -INFO- router-category -> read_category
+21-Mar-24 21:31:52 -INFO- router-Model -> read_model
+21-Mar-24 21:31:58 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:31:58 -INFO- router-Model -> read_model
+21-Mar-24 21:31:58 -INFO- router-category -> read_category
+21-Mar-24 21:38:37 -INFO- router-category -> read_category
+21-Mar-24 21:38:37 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:38:37 -INFO- router-Model -> read_model
+21-Mar-24 21:38:52 -INFO- router-category -> read_category
+21-Mar-24 21:38:52 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:38:52 -INFO- router-Model -> read_model
+21-Mar-24 21:53:59 -INFO- router-category -> read_category
+21-Mar-24 21:53:59 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:53:59 -INFO- router-Model -> read_model
+21-Mar-24 21:54:07 -INFO- router-category -> read_category
+21-Mar-24 21:54:07 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:54:07 -INFO- router-Model -> read_model
+21-Mar-24 21:57:17 -INFO- router-category -> read_category
+21-Mar-24 21:57:17 -INFO- info-router-brand -> read_brand
+21-Mar-24 21:57:17 -INFO- router-Model -> read_model
+21-Mar-24 21:59:27 -INFO- router-category -> read_category
+21-Mar-24 21:59:27 -INFO- router-Model -> read_model
+21-Mar-24 21:59:27 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:02:11 -INFO- router-category -> read_category
+21-Mar-24 22:02:11 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:02:11 -INFO- router-Model -> read_model
+21-Mar-24 22:03:29 -INFO- router-category -> read_category
+21-Mar-24 22:03:29 -INFO- router-Model -> read_model
+21-Mar-24 22:03:29 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:03:36 -INFO- router-Model -> read_model
+21-Mar-24 22:03:36 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:03:36 -INFO- router-category -> read_category
+21-Mar-24 22:03:42 -INFO- router-category -> read_category
+21-Mar-24 22:03:42 -INFO- router-Model -> read_model
+21-Mar-24 22:03:42 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:03:45 -INFO- router-category -> read_category
+21-Mar-24 22:03:45 -INFO- info-router-brand -> read_brand
+21-Mar-24 22:03:45 -INFO- router-Model -> read_model
+27-Mar-24 19:26:04 -INFO- main - Reload
+27-Mar-24 19:28:40 -INFO- router-category -> read_category
+27-Mar-24 19:28:40 -INFO- router-Model -> read_model
+27-Mar-24 19:28:40 -INFO- info-router-brand -> read_brand
+27-Mar-24 19:49:10 -INFO- main - Reload
+27-Mar-24 19:49:12 -INFO- info-router-type_doc -> read_type_doc
+27-Mar-24 19:49:18 -INFO- router-category -> read_category
+27-Mar-24 19:50:22 -INFO- main - Reload
+27-Mar-24 19:50:48 -INFO- main - Reload
+27-Mar-24 19:51:18 -INFO- main - Reload
+27-Mar-24 20:45:29 -INFO- router-category -> read_category
+27-Mar-24 20:45:29 -INFO- info-router-brand -> read_brand
+27-Mar-24 20:45:29 -INFO- router-Model -> read_model
+27-Mar-24 20:48:18 -INFO- main - Reload
+27-Mar-24 20:48:28 -INFO- router-warehouses -> read_warehouses
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> getListByDoc
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:28 -INFO- router-vstockcard -> doc_date =2024-02-13
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> getListByDoc_Total
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> getListByDoc_Total
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> getListByDoc
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:33 -INFO- router-vstockcard -> doc_date =2024-02-13
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> getListByDoc
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> doc_date =2024-03-27
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> getListByDoc_Total
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> doc_date_st =2024-03-27
+27-Mar-24 20:48:58 -INFO- router-vstockcard -> doc_date_en =2024-03-27
+27-Mar-24 20:51:39 -INFO- router-warehouses -> read_warehouses
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> getListByDoc
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date =2024-02-13
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> getListByDoc_Total
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> getListByDoc_Total
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date_st =2024-02-13
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date_en =2024-02-13
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> getListByDoc
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> wh_id =W001
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> type_doc_id =SI
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> skip =0
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> limit =1000
+27-Mar-24 20:51:40 -INFO- router-vstockcard -> doc_date =2024-02-13
+27-Mar-24 20:51:42 -INFO- router-category -> read_category
+27-Mar-24 20:51:43 -INFO- info-router-brand -> read_brand
+27-Mar-24 20:51:43 -INFO- router-Model -> read_model
+27-Mar-24 20:53:25 -INFO- main - Reload
+27-Mar-24 20:53:49 -INFO- main - Reload
+27-Mar-24 20:54:53 -INFO- main - Reload
+27-Mar-24 20:55:20 -INFO- main - Reload
+27-Mar-24 20:55:58 -INFO- main - Reload
+27-Mar-24 20:59:15 -INFO- main - Reload
+27-Mar-24 21:01:21 -INFO- main - Reload
+27-Mar-24 21:01:25 -INFO- main - Reload
+27-Mar-24 21:11:42 -INFO- main - Reload
+27-Mar-24 21:12:30 -INFO- main - Reload
+27-Mar-24 21:14:21 -INFO- main - Reload
+27-Mar-24 21:14:35 -INFO- main - Reload
+27-Mar-24 21:14:40 -INFO- main - Reload
+27-Mar-24 21:14:45 -INFO- main - Reload
+27-Mar-24 21:20:48 -INFO- router-category -> read_category
+27-Mar-24 21:20:48 -INFO- router-Model -> read_model
+27-Mar-24 21:20:48 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:22:00 -INFO- router-category -> read_category
+27-Mar-24 21:22:00 -INFO- router-Model -> read_model
+27-Mar-24 21:22:01 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:22:25 -INFO- router-category -> read_category
+27-Mar-24 21:22:25 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:22:25 -INFO- router-Model -> read_model
+27-Mar-24 21:22:31 -INFO- router-category -> read_category
+27-Mar-24 21:22:31 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:22:31 -INFO- router-Model -> read_model
+27-Mar-24 21:22:55 -INFO- router-category -> read_category
+27-Mar-24 21:22:55 -INFO- router-Model -> read_model
+27-Mar-24 21:22:55 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:23:07 -INFO- router-category -> read_category
+27-Mar-24 21:23:07 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:23:07 -INFO- router-Model -> read_model
+27-Mar-24 21:23:35 -INFO- router-category -> read_category
+27-Mar-24 21:23:35 -INFO- router-Model -> read_model
+27-Mar-24 21:23:35 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:25:06 -INFO- router-category -> read_category
+27-Mar-24 21:25:06 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:25:06 -INFO- router-Model -> read_model
+27-Mar-24 21:25:19 -INFO- router-category -> read_category
+27-Mar-24 21:25:19 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:25:19 -INFO- router-Model -> read_model
+27-Mar-24 21:25:54 -INFO- main - Reload
+27-Mar-24 21:25:57 -INFO- main - Reload
+27-Mar-24 21:27:25 -INFO- router-category -> read_category
+27-Mar-24 21:27:25 -INFO- info-router-brand -> read_brand
+27-Mar-24 21:27:25 -INFO- router-Model -> read_model
+27-Mar-24 22:02:52 -INFO- main - Reload
+27-Mar-24 22:02:56 -INFO- router-category -> read_category
+27-Mar-24 22:02:56 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:02:56 -INFO- router-Model -> read_model
+27-Mar-24 22:04:40 -INFO- router-category -> read_category
+27-Mar-24 22:04:40 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:04:40 -INFO- router-Model -> read_model
+27-Mar-24 22:04:50 -INFO- router-category -> read_category
+27-Mar-24 22:04:50 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:04:50 -INFO- router-Model -> read_model
+27-Mar-24 22:05:09 -INFO- router-category -> read_category
+27-Mar-24 22:05:09 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:05:09 -INFO- router-Model -> read_model
+27-Mar-24 22:05:38 -INFO- router-category -> read_category
+27-Mar-24 22:05:38 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:05:38 -INFO- router-Model -> read_model
+27-Mar-24 22:07:03 -INFO- router-category -> read_category
+27-Mar-24 22:07:03 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:07:03 -INFO- router-Model -> read_model
+27-Mar-24 22:16:20 -INFO- router-category -> read_category
+27-Mar-24 22:16:20 -INFO- router-Model -> read_model
+27-Mar-24 22:16:20 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:21:13 -INFO- router-category -> read_category
+27-Mar-24 22:21:14 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:21:14 -INFO- router-Model -> read_model
+27-Mar-24 22:21:26 -INFO- main - Reload
+27-Mar-24 22:23:54 -INFO- router-category -> read_category
+27-Mar-24 22:23:54 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:23:54 -INFO- router-Model -> read_model
+27-Mar-24 22:24:33 -INFO- router-category -> read_category
+27-Mar-24 22:24:33 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:24:33 -INFO- router-Model -> read_model
+27-Mar-24 22:25:00 -INFO- router-category -> read_category
+27-Mar-24 22:25:00 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:25:00 -INFO- router-Model -> read_model
+27-Mar-24 22:26:03 -INFO- router-category -> read_category
+27-Mar-24 22:26:03 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:26:03 -INFO- router-Model -> read_model
+27-Mar-24 22:26:58 -INFO- router-category -> read_category
+27-Mar-24 22:26:58 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:26:58 -INFO- router-Model -> read_model
+27-Mar-24 22:33:17 -INFO- router-category -> read_category
+27-Mar-24 22:33:17 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:33:17 -INFO- router-Model -> read_model
+27-Mar-24 22:33:37 -INFO- router-category -> read_category
+27-Mar-24 22:33:37 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:33:37 -INFO- router-Model -> read_model
+27-Mar-24 22:49:00 -INFO- main - Reload
+27-Mar-24 22:49:25 -INFO- main - Reload
+27-Mar-24 22:52:49 -INFO- router-category -> read_category
+27-Mar-24 22:52:49 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:52:49 -INFO- router-Model -> read_model
+27-Mar-24 22:54:38 -INFO- router-category -> read_category
+27-Mar-24 22:54:38 -INFO- router-Model -> read_model
+27-Mar-24 22:54:38 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:55:17 -INFO- router-category -> read_category
+27-Mar-24 22:55:17 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:55:17 -INFO- router-Model -> read_model
+27-Mar-24 22:55:33 -INFO- router-category -> read_category
+27-Mar-24 22:55:33 -INFO- router-Model -> read_model
+27-Mar-24 22:55:33 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:56:18 -INFO- router-category -> read_category
+27-Mar-24 22:56:18 -INFO- info-router-brand -> read_brand
+27-Mar-24 22:56:18 -INFO- router-Model -> read_model
+27-Mar-24 23:01:29 -INFO- main - Reload

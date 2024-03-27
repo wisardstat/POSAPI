@@ -28,23 +28,34 @@ def get_db():
 @router.post("/stockin/add")
 def stockin_add(request: stockIn.StockInRequest,
                       db: Session = Depends(get_db)):
+    
+    print('************************************************')
+    print('Start - Save Stock-in')
+    print('************************************************')
+
     # stockIn_h : stockIn.StockInRequest
     stockIn_d : List[stockIn.StockItem] = []
-    alert = ""
-    print(request)
+    alert = ""    
     request.doc_id = genidrandom.generate_id_random(db,"StockIN", "SI", 10000, "yearmonth", request.cc_id)
 
+    print('==> Add Stock in Header ')
     uc_stockIn.add_stockIn_h(db,request) 
+
     if request.vendor_id is None :
-        print(f"request.vendor_id: {request.vendor_id}")
+        print(f"==> vendor_id: {request.vendor_id}")
         uc_stockIn.add_supply(db,request.supplierDetail)
+
     else:
-        print(f"request.vendor_id: {request.vendor_id}")
+        print(f"==> vendor_id: {request.vendor_id}")
         uc_stockIn.update_supply(db,request.supplierDetail)
+
+    
+    print('==> Loop for - check barcode Exists')
     for item in request.itemList:
         item.doc_id = request.doc_id
         category = uc_categories.get_category_byId(db,item.group_id)
-        print(f"category: {category.group_emei}")
+        print(f"** category: {category.group_emei}",f"bar_code:{item.bar_code}")
+        
         if category.group_emei == "Y" :
             vitemall = uc_vitemall.getSingle(db, item.bar_code, item.cc_id)
             if vitemall != None:
@@ -55,12 +66,14 @@ def stockin_add(request: stockIn.StockInRequest,
     print("print stockIn_d")
     print(stockIn_d)
     
+    print('==> Loop for - insert item / stock detail')
     for item in stockIn_d:
         if item != None:
-            item.doc_id = request.doc_id
-            print("item")
-            print(item)
+            item.doc_id = request.doc_id                        
             productM = uc_productM.getProductM(db, item)
+
+            print(f"** bar_code:{item.bar_code}")
+
             if productM == None:
                 item.pd_id = genidrandom.generate_id_random(db,"PRODUCT_ID", "P", 10000, "zero", request.cc_id)
                 uc_productM.add_ProductM(db,item)
