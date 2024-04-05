@@ -3,11 +3,14 @@ from typing import List
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi import APIRouter
+from fastapi.responses import JSONResponse
+from fastapi.encoders import jsonable_encoder
 #from ... import crud,schemas
 from ...database import SessionLocal, engine
-from ...use_cases import vstockcards as usecase
+from ...use_cases import vstockcards as usecase , vItemAll as uc_vitemall , categories as uc_categories , warehouses as uc_wh 
 from ...dtos import vstockcards as dtos
 from ...loggings import  log
+from ...utility import apiResponse
 
 router = APIRouter()
 
@@ -18,6 +21,41 @@ def get_db():
         yield db
     finally:
         db.close()
+
+@router.get("/vstockcard/barcode_exists")
+async def get_BarcodeExists( bar_code: str="",
+                             group_id: str="",
+                             cc_id: str="",
+                             db: Session = Depends(get_db)):
+    
+    log.info('router-vstockcard -> get_BarcodeExists')
+    print('>> bar_code=',bar_code)
+    print('>> group_id=',group_id)
+    print('>> cc_id=',cc_id)
+
+    category = uc_categories.get_category_byId(db,group_id)
+    alert =""
+
+    print(f">> XX category: {category.group_emei}",f"bar_code:{bar_code}")
+
+    if category.group_emei == "Y" :
+        vitemall = uc_vitemall.getSingle(db, bar_code, cc_id)
+
+        if vitemall != None  :                     
+            if vitemall.qty==0 :
+                wh_name = uc_wh.get_warehouse_name(db,vitemall.wh_id)
+                alert =  f"บาร์โค๊ด/Emei {vitemall.bar_code} เคยรับเข้าร้านแล้ว ล่าสุดอยู่ที่ร้าน {wh_name} "
+                print(alert)                
+            else :
+                wh_name = uc_wh.get_warehouse_name(db,vitemall.wh_id)
+                alert =  f"บาร์โค๊ด/Emei {vitemall.bar_code} มีอยู่ที่ร้าน {wh_name} จำนวน {vitemall.qty} ชิ้น"   
+                print(alert)                
+        else :
+            alert = ""
+    
+    result = jsonable_encoder(alert)    
+    return JSONResponse(content=result, media_type="application/json")
+
         
 @router.get("/vstockcard/getVstockcardListAll")
 async def getVstockcardListAll(skip: int = 0, limit: int = 10, db: Session = Depends(get_db))-> List[dtos.vstockcard]:

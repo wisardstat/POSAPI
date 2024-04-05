@@ -24,6 +24,8 @@ def get_db():
     finally:
         db.close()
 
+   
+
 
 @router.post("/stockin/add")
 def stockin_add(request: stockIn.StockInRequest,
