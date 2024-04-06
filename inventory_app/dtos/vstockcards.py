@@ -99,3 +99,8 @@ class vstockcard_getListByItem_Total(BaseModel):
  
     class Config:
         orm_mode = True        
+
+class BarcodeExistsRequest(BaseModel):
+    bar_code: str  | None = None
+    group_id: str  | None = None
+    cc_id: str 

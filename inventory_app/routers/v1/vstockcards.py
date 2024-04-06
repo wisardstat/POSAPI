@@ -36,7 +36,7 @@ async def get_BarcodeExists( bar_code: str="",
     category = uc_categories.get_category_byId(db,group_id)
     alert =""
 
-    print(f">> XX category: {category.group_emei}",f"bar_code:{bar_code}")
+    print(f">> category: {category.group_emei}",f"bar_code:{bar_code}")
 
     if category.group_emei == "Y" :
         vitemall = uc_vitemall.getSingle(db, bar_code, cc_id)

@@ -23,13 +23,16 @@ def add_StockCard(db: Session, item: stockIn.StockItem , vendor_id:str, vendor_n
         print("add_StockCard")
         now = datetime.now()
         date_now = now.replace(hour=0, minute=0, second=0, microsecond=0)
-        formatted_date = date_now.strftime("%Y-%m-%d %H:%M:%S")
+        
+        formatted_date_in = now.strftime("%Y-%m-%d %H:%M:%S")
+        formatted_doc_date = date_now.strftime("%Y-%m-%d %H:%M:%S")
+        
         new_StockCard = ent.TbStockCard(                                                   
                             _pd_id = item.pd_id
                             ,bar_code = item.bar_code  
                             ,doc_id = item.doc_id
                             ,cost = item.cost
-                            ,doc_date = formatted_date 
+                            ,doc_date = formatted_doc_date 
                             ,type_doc = 1 
                             ,wh_id = wh_id
                             ,unit_id = 1
@@ -38,7 +41,7 @@ def add_StockCard(db: Session, item: stockIn.StockItem , vendor_id:str, vendor_n
                             ,lot_no = item.lot_no
                             ,vd_cu_code = vendor_id
                             ,vd_cu_name = vendor_name
-                            ,date_in = formatted_date
+                            ,date_in = formatted_date_in
                             ,cc_id = item.cc_id)
         
         db.add(new_StockCard)

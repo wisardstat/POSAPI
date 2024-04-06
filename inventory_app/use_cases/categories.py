@@ -16,3 +16,13 @@ def get_category_list(db: Session, skip: int = 0, limit: int = 10):
         .limit(limit)
         .all()
     )
+
+def get_category_emei_list(db: Session, skip: int = 0, limit: int = 10):
+    return (
+        db.query(et_cat.tbcategory)
+        .filter(et_cat.tbcategory.group_emei=="Y")
+        .order_by(et_cat.tbcategory.group_name)
+        .offset(skip)
+        .limit(limit)
+        .all()
+    )

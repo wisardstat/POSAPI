@@ -55,3 +55,4 @@ class StockInRequest(BaseModel):
     class Config:
         orm_mode = True
 
+
