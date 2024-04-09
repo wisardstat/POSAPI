@@ -7,20 +7,28 @@ from ..dtos import stockIn
 from datetime import datetime
 
 def execute_stored_procedure_mssql(db: Session, procedure_name, doc_id, wh_id): 
+
     try:
-        print("execute_stored_procedure_mssql")
+        print(">>> execute_stored_procedure_mssql")       
+
         sql_text = text(f"EXEC {procedure_name} 'SI', '{doc_id}', '{wh_id}' ")
         db.execute(sql_text)
-    except IntegrityError as e:        
+        db.commit();
+
+        print("sql =",sql_text)
+
+    except IntegrityError as e: 
+
         db.rollback()  
-        print(f"Error updating record: {e}")
+        print(f">>> Error!! updating record: {e}")
+
     finally:
         db.close()  # Close the session after use
 
         
 def add_StockCard(db: Session, item: stockIn.StockItem , vendor_id:str, vendor_name:str , wh_id:str):            
     try:
-        print("add_StockCard")
+        print(">>> add_StockCard")
         now = datetime.now()
         date_now = now.replace(hour=0, minute=0, second=0, microsecond=0)
         
@@ -48,11 +56,11 @@ def add_StockCard(db: Session, item: stockIn.StockItem , vendor_id:str, vendor_n
         db.commit()
         db.refresh(new_StockCard)
         if new_StockCard:
-            print("Data inserted successfully (TbStockCard)!")               
+            print(">>> Data inserted successfully (TbStockCard)!")               
             return new_StockCard 
 
     except IntegrityError as e:        
         db.rollback()  
-        print(f"Error updating record: {e}")
+        print(f">>> Error updating record: {e}")
     finally:
         db.close() 

@@ -24,8 +24,6 @@ def get_db():
     finally:
         db.close()
 
-   
-
 
 @router.post("/stockin/add")
 def stockin_add(request: stockIn.StockInRequest,
@@ -35,24 +33,32 @@ def stockin_add(request: stockIn.StockInRequest,
     print('Start - Save Stock-in')
     print('************************************************')
 
+    print('==> request.vendor_id==',request.vendor_id)
     # stockIn_h : stockIn.StockInRequest
     stockIn_d : List[stockIn.StockItem] = []
     alert = ""    
+    print('*******  generate_id_random - StockIn *********')
     request.doc_id = genidrandom.generate_id_random(db,"StockIN", "SI", 10000, "yearmonth", request.cc_id)
-
-    print('==> Add Stock in Header ')
+    
+    print('*******  Add Stock in Header  *********')
     uc_stockIn.add_stockIn_h(db,request) 
 
-    if request.vendor_id is None :
+    if (request.vendor_id is None or request.vendor_id=="") :
+        print('==> add_supply')
         print(f"==> vendor_id: {request.vendor_id}")
-        uc_stockIn.add_supply(db,request.supplierDetail)
+        
+        print('*******  generate_id_random - supply_id *********')
+        request.supplierDetail.supply_id = genidrandom.generate_id_random(db,"SUPPLYID", "S", 1000, "zero", request.cc_id)
+        request.vendor_id = request.supplierDetail.supply_id
+        print(f"==> SUPPLYID: {request.supplierDetail.supply_id}")
 
+        uc_stockIn.add_supply(db,request.supplierDetail)
     else:
+        print('==> update_supply')
         print(f"==> vendor_id: {request.vendor_id}")
         uc_stockIn.update_supply(db,request.supplierDetail)
 
-    
-    print('==> Loop for - check barcode Exists')
+    print('*******  Loop for - check barcode Exists *********')    
     for item in request.itemList:
         item.doc_id = request.doc_id
         category = uc_categories.get_category_byId(db,item.group_id)
@@ -67,23 +73,33 @@ def stockin_add(request: stockIn.StockInRequest,
         
     print("print stockIn_d")
     print(stockIn_d)
-    
-    print('==> Loop for - insert item / stock detail')
+        
+    print('*******  Loop for - insert item / stock detail *********')
     for item in stockIn_d:
         if item != None:
             item.doc_id = request.doc_id                        
             productM = uc_productM.getProductM(db, item)
 
-            print(f"** bar_code:{item.bar_code}")
+            print(f">> bar_code:{item.bar_code}")
 
             if productM == None:
                 item.pd_id = genidrandom.generate_id_random(db,"PRODUCT_ID", "P", 10000, "zero", request.cc_id)
-                uc_productM.add_ProductM(db,item)
-                uc_productUnit.add_ProductUnit(db,item)
+                uc_productM.add_ProductM(db,item)                
             else:
                 item.pd_id = productM.pd_id
                 uc_productM.update_ProductM(db, item)
-                
+            
+
+            print('**********************************')
+            print('>> Checked product_unit ')            
+            product_unit = uc_productUnit.get_productUnit_single(db,item.bar_code)
+
+            if product_unit == None :
+                print('>> add_ProductUnit')
+                uc_productUnit.add_ProductUnit(db,item)
+            else :
+                print('>> ProductUnit Exists')
+
             uc_stockIn.update_stock_in_d(db,item)
             uc_stockCard.add_StockCard(db,item,request.vendor_id, request.vendor_name, request.wh_id)     
 

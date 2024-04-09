@@ -9,7 +9,7 @@ from fastapi import APIRouter
 #from ... import crud,schemas
 from ...database import SessionLocal, engine
 from ...use_cases import user as uc_user
-from ...dtos import user as dt_user
+from ...dtos import user as dt_user, user_branch as ubranch
 from ...loggings import log
 
 router = APIRouter()
@@ -21,16 +21,46 @@ def get_db():
         yield db
     finally:
         db.close()
-        
-@router.get("/user/")
-async def get_user_single(user: str , password: str
-                 , db: Session = Depends(get_db))-> List[dt_user.user]:
+     
+ 
+@router.get("/user/list")
+async def getlist(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)) -> List[dt_user.user]:
     
-    print('+++++++++++++++++++++++++++++++++++')
-    print('>> router-user -> get_user_single')
+    print(">> user/ getlist")
+    log.info("info-router-user -> user/ getlist")
 
-    user = uc_user.get_user_single(db, user=user, password=password)
-    return user
- 
- 
+    result = uc_user.get_list(db, skip=skip, limit=limit)
+    print('++++++++++++++++++++++++++++++++')
+    return result 
+
+@router.get("/user/single")
+async def get_single( user:str='wisard',password:str='wds6597', db: Session = Depends(get_db) ) -> dt_user.user:
+    
+    print(">> user/ get_single")
+    log.info("info-router-user -> user/ get_single")
+
+    result = uc_user.get_single(db,user,password)
+    
+    if (result==None):    
+        print('+++ None data !! +++')      
+        result=[]
+    
+    return result 
+        
+@router.get("/user/branch")
+async def get_BranchList( user_id:str, db: Session = Depends(get_db) ) -> List[ubranch.userBranch]:
+    
+    print(">> user/ get_single")
+    log.info("info-router-user -> user/ get_BranchList")
+
+    result = uc_user.getBranch_list(db,user_id)
+    
+    print(len(result))
+
+    if (result==None):    
+        print('>> get_BranchList')
+        print('>> None data !! +++')      
+        result=[]
+    
+    return result 
         

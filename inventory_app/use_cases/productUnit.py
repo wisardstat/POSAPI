@@ -5,6 +5,17 @@ from ..entity import productUnit as ent
 from ..dtos import stockIn 
 
 
+def get_productUnit_single(db: Session, barcode :str):
+
+     result = (
+                db.query(ent.TbProductUnit)
+                .filter(ent.TbProductUnit.bar_code==barcode)              
+                .first()
+                )
+     
+     return result
+    
+
 def add_ProductUnit(db: Session, item: stockIn.StockItem):            
     try:
         print("add_ProductUnit")
@@ -16,7 +27,7 @@ def add_ProductUnit(db: Session, item: stockIn.StockItem):
                             ,price3 = item.cost 
                             ,last_cost = item.cost 
                             ,unit_id = 1
-                            ,ratio = 1
+                            ,ratio = 1                            
                             ,cc_id =item.cc_id)
         
         db.add(new_ProductUnit)

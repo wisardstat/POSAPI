@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from ..dtos import brands as dt
 
+from ..dtos import brands as dt
 from ..entity import brands as et_brand
 
 def create_brand(db: Session, brand: dt.brandCreate):
