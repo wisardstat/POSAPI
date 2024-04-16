@@ -1,5 +1,6 @@
 from typing import List, Optional
 from pydantic import BaseModel, ConfigDict
+from datetime import datetime, timedelta,date
 
 class StockItem(BaseModel):
     doc_id: str  | None = None
@@ -56,3 +57,40 @@ class StockInRequest(BaseModel):
         orm_mode = True
 
 
+
+class StockInHead(BaseModel):
+    doc_id: str  | None = None
+    doc_date: date  | None = None
+    vendor_id: str  | None = None
+    wh_id: str | None = None
+    wh_name: str | None = None
+    vendor_name: str  | None = None
+    vendor_addr1: str  | None = None
+    vendor_addr2: str  | None = None
+    vendor_tel: str  | None = None
+    cc_id: str   | None = None
+    
+    DOC_STATUS: str    | None = None   
+    class Config:
+        orm_mode = True
+
+
+class vStockInDetail(BaseModel):
+    doc_id: str  | None = None
+    bar_code: str  | None = None    
+    pd_name: str  | None = None
+    group_id: str  | None = None
+    group_name: str  | None = None
+    brand_id: str   | None = None
+    brand_name: str   | None = None
+    model_id: str  | None = None
+    model_name: str  | None = None
+    color: str  | None = None
+    cost: float  | None = None 
+    qty: int   | None = None
+    UEDIT: str  | None = None
+    DEDIT: date  | None = None
+    cc_id: str  | None = None
+    class Config:
+        orm_mode = True
+    

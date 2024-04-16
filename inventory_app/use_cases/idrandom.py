@@ -10,19 +10,16 @@ def get_listidrandom(db: Session, crtid: str ,frm: str, chk_cc_id:int, cc_id:str
     # Build the filter criteria
     
     criteria = and_(
-    et_idrandom.TbIdRandom.CrtID == crtid,
-    et_idrandom.TbIdRandom.Frm == frm,
-    et_idrandom.TbIdRandom.cc_id == cc_id if chk_cc_id == 1 else True
-)
-
-
+                    et_idrandom.TbIdRandom.CrtID == crtid,
+                    et_idrandom.TbIdRandom.Frm == frm,
+                    et_idrandom.TbIdRandom.cc_id == cc_id if chk_cc_id == 1 else True
+                    )
     print("criteria=>",criteria)
     result = (
         db.query(et_idrandom.TbIdRandom)
         .filter(criteria)
         .all()
     )
-
     return result
 
 
@@ -33,20 +30,23 @@ def get_IDNum(db: Session, crtid: str ,frm: str, chk_cc_id:int, cc_id:str):
     # Build the filter criteria
     
     criteria = and_(
-    et_idrandom.TbIdRandom.CrtID == crtid,
-    et_idrandom.TbIdRandom.Frm == frm,
-    et_idrandom.TbIdRandom.cc_id == cc_id if chk_cc_id == 1 else True
-)
+                    et_idrandom.TbIdRandom.CrtID == crtid,
+                    et_idrandom.TbIdRandom.Frm == frm,
+                    et_idrandom.TbIdRandom.cc_id == cc_id if chk_cc_id == 1 else True
+                    )
 
 
     print("criteria=>",criteria)
     result = (
-        db.query(et_idrandom.TbIdRandom)
-        .filter(criteria)
-        .first()
-    )
-
-    return int(result.IDNum)
+                db.query(et_idrandom.TbIdRandom)
+                .filter(criteria)
+                .first()
+             )
+    print(result)
+    if result==None :
+        return 0
+    else :
+        return int(result.IDNum)
 
 def create_idrandom(db: Session, crtid: str ,frm: str, type_doc:str, id_num:str,cc_id:str):
     print("create_idrandom",)
@@ -59,7 +59,7 @@ def create_idrandom(db: Session, crtid: str ,frm: str, type_doc:str, id_num:str,
                             )
     db.add(db_idrandom)
     db.commit()
-    db.refresh(db_idrandom)
+    # db.refresh(db_idrandom)
     return db_idrandom
 
 
@@ -67,8 +67,6 @@ def create_idrandom(db: Session, crtid: str ,frm: str, type_doc:str, id_num:str,
 
 def update_IDNum(db: Session, crtid: str, cc_id: str, new_id_num: str):
     try:
-        print("update_IDNum")
-
         criteria = and_(
             et_idrandom.TbIdRandom.CrtID == crtid,
             et_idrandom.TbIdRandom.cc_id == cc_id if cc_id else True
@@ -78,8 +76,7 @@ def update_IDNum(db: Session, crtid: str, cc_id: str, new_id_num: str):
             db.query(et_idrandom.TbIdRandom)
             .filter(criteria)
             .update(values={"IDNum": new_id_num})
-        )
-        print("result=>",result)
+        )        
 
         if result:            
             db.commit()
@@ -91,5 +88,5 @@ def update_IDNum(db: Session, crtid: str, cc_id: str, new_id_num: str):
         print(f"Error updating record: {e}")
         return False
 
-    finally:
-        db.close()  # Always close the session
+    # finally:
+    #     db.close()  # Always close the session

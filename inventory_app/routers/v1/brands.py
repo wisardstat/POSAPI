@@ -8,7 +8,7 @@ from fastapi import APIRouter
 
 # from ... import crud,schemas
 from ...database import SessionLocal, engine
-from ...use_cases import brands as uc_brands
+from ...use_cases import brands as uc_brands,current_datetime as cdate
 from ...dtos import brands as dt_brand
 from ...loggings import log
 
@@ -23,13 +23,13 @@ def get_db():
     finally:
         db.close()
 
-
 @router.get("/brand/")
 async def read_brand(
     skip: int = 0, limit: int = 100, db: Session = Depends(get_db)
 ) -> List[dt_brand.brand]:
     print(">> read_brand")
 
+ 
     log.info("info-router-brand -> read_brand")
     brand = uc_brands.get_brand(db, skip=skip, limit=limit)
     return brand

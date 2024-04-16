@@ -9,7 +9,7 @@ from fastapi import APIRouter
 #from ... import crud,schemas
 from ...database import SessionLocal, engine
 from ...use_cases import user as uc_user
-from ...dtos import user as dt_user, user_branch as ubranch
+from ...dtos import user as dt_user
 from ...loggings import log
 
 router = APIRouter()
@@ -48,7 +48,8 @@ async def get_single( user:str='wisard',password:str='wds6597', db: Session = De
     return result 
         
 @router.get("/user/branch")
-async def get_BranchList( user_id:str, db: Session = Depends(get_db) ) -> List[ubranch.userBranch]:
+async def get_BranchList( user_id:str, 
+                         db: Session = Depends(get_db) ) -> List[dt_user.user_branch]:
     
     print(">> user/ get_single")
     log.info("info-router-user -> user/ get_BranchList")

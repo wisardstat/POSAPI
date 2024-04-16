@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy import  and_ 
-from ..entity import stockInD , stockInH , tbSupply
+from ..entity import stockInD , stockInH , tbSupply , vstockInD , vstockInH
 from ..dtos import stockIn 
 from datetime import datetime
 
@@ -176,3 +176,24 @@ def update_stock_in_d(db: Session, item: stockIn.StockItem):
         db.close() 
 
 
+def get_stock_in_h(db: Session, _doc_id:str, _cc_id:str):
+    result = (
+                db.query(vstockInH.vstockInH)
+                .filter( (vstockInH.vstockInH.doc_id == _doc_id) 
+                        ,(vstockInH.vstockInH.cc_id == _cc_id) 
+                           )
+                .first()
+                )
+    
+    return result
+
+def get_stock_in_d(db: Session, _doc_id:str, _cc_id:str):
+    result = (
+                db.query(vstockInD.vStockInD)
+                .filter( ( vstockInD.vStockInD.doc_id == _doc_id) 
+                        ,( vstockInD.vStockInD.cc_id == _cc_id)
+                            )
+                .all()
+                )
+    
+    return result

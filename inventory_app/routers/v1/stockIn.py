@@ -109,3 +109,21 @@ def stockin_add(request: stockIn.StockInRequest,
         return apiResponse.response(200,status="alert",message=alert)
     
     return apiResponse.response(200, status="success", message="")
+
+
+@router.get("/stock_in/header")
+async def get_StockHeader(doc_id:str ,cc_id:str
+                , db: Session = Depends(get_db))-> stockIn.StockInHead:
+    
+    log.info('router-Model -> read_model')
+    model = uc_stockIn.get_stock_in_h(db, doc_id,cc_id)
+    return model
+
+
+@router.get("/stock_in/detail")
+async def get_StockDetail(doc_id:str,cc_id:str
+                , db: Session = Depends(get_db))-> List[stockIn.vStockInDetail]:
+    
+    log.info('router-Model -> read_model')
+    model = uc_stockIn.get_stock_in_d(db, doc_id,cc_id)
+    return model

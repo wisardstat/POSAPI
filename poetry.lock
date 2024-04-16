@@ -23,6 +23,16 @@ test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypo
 trio = ["trio (>=0.23)"]
 
 [[package]]
+name = "bahttext"
+version = "1.0.2"
+description = "Tool for convert currency number to Thai text"
+optional = false
+python-versions = "*"
+files = [
+    {file = "bahttext-1.0.2.tar.gz", hash = "sha256:ba49a7d5251a95223d95285186f6875e8a7cadbb8c40badd1414b0220c475bd1"},
+]
+
+[[package]]
 name = "cached-property"
 version = "1.5.2"
 description = "A decorator for caching properties in classes."
@@ -1080,4 +1090,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.11"
-content-hash = "3357c251bd72aab439724c0746ca32def85fb50cb1e650cb13996f58153d43e2"
+content-hash = "4e9904ba7013e476532f25ebdfcd2181e612a39d4d75fd6e3e2fc95bf6d4dfda"

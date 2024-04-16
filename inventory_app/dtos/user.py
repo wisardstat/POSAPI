@@ -9,7 +9,19 @@ class user(BaseModel):
     group_user_name: str   | None = None
     user_login: str  | None = None 
     user_password: str  | None = None 
+    cc_id: str  | None = None 
 
+    class Config:
+        orm_mode = True
+
+
+class user_branch(BaseModel):
+    #model_config = ConfigDict(extra='allow')
+    user_id : str  | None = None 
+    wh_id : str  | None = None 
+    wh_name : str  | None = None 
+    cc_id : str  | None = None 
+    
     class Config:
         orm_mode = True
  

@@ -20,6 +20,7 @@ pydantic = "1.10.10"
 logging = "^0.4.9.6"
 configparser = "^6.0.0"
 quote = "^2.0.4"
+bahttext = "^1.0.2"
 
 
 [tool.poetry.group.dev.dependencies]

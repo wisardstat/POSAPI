@@ -11,3 +11,4 @@ class User(Base):
     group_user_name = Column(String(50), nullable=True)
     user_login = Column(String(20), nullable=True)
     user_password = Column(String(20), nullable=True)
+    cc_id = Column(String(20), nullable=True)

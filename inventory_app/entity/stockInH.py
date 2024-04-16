@@ -6,7 +6,7 @@ class TbStockInH(Base):
 
     doc_id = Column(String(30), primary_key=True)
     doc_date = Column(DateTime, nullable=True)
-    wh_id = Column(String(10), nullable=True)
+    wh_id = Column(String(10), nullable=True)    
     vendor_id = Column(String(20), nullable=True)
     vendor_name = Column(String(200), nullable=True)
     vendor_addr1 = Column(String(200), nullable=True)
