@@ -2,7 +2,7 @@ from sqlalchemy import Column, String ,DateTime,DATE,Float,Integer
 from ..database import Base
 
 class tbInvoiceDetail(Base):
-    __tablename__ = 'TbInvoice_detail2' 
+    __tablename__ = 'TbInvoice_detail' 
 
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id    = Column(String(30), nullable=True)    

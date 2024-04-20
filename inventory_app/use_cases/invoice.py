@@ -85,3 +85,14 @@ def SaleDetail_add(db: Session
     if SaleDetailData:
         print(">>> Data inserted >> TbInvoice_D << successfully!!")
         return SaleDetailData     
+
+
+def get_SaleHeader(db: Session, doc_id:str) :
+    return ( db.query(invoiceHeader.tbInvoiceHeader)
+             .filter(invoiceHeader.tbInvoiceHeader.doc_id == doc_id)
+             .first() )
+
+def get_SaleDetail(db: Session, doc_id:str) :
+    return ( db.query(invoiceDetail.tbInvoiceDetail)
+             .filter(invoiceDetail.tbInvoiceDetail.doc_id == doc_id)
+             .all() )

@@ -6,6 +6,9 @@ from ..dtos import warehouses as schemas
 def get_warehouse_single(db: Session, wh_name: str):    
     return db.query(ent.tbwareHouse).filter(ent.tbwareHouse.wh_name == wh_name).first()
 
+def get_warehouse_singleById(db: Session, wh_id: str):    
+    return db.query(ent.tbwareHouse).filter(ent.tbwareHouse.wh_id == wh_id).first()
+
 
 def get_warehouse_name(db: Session, wh_id: str):    
     wh =  db.query(ent.tbwareHouse).filter(ent.tbwareHouse.wh_id == wh_id).first()

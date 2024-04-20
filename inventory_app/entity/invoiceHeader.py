@@ -3,7 +3,7 @@ from ..database import Base
 
 class tbInvoiceHeader(Base):
 
-    __tablename__ = 'TbInvoice_head2' 
+    __tablename__ = 'TbInvoice_head' 
 
     doc_id    = Column(String(30), primary_key=True)
     doc_date  = Column(DATE, nullable=True)

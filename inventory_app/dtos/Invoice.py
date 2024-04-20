@@ -89,6 +89,47 @@ class SaleDetailRequest(BaseModel):
     cc_id    : str | None = None
 
 
+class InvoiceHeader(BaseModel):
+
+    doc_id    : str | None = None
+    doc_date  : date | None = None
+    wh_id     : str | None = None
+
+    cust_id    : str | None = None
+    cust_name  : str | None = None
+    cust_addr1 : str | None = None
+    cust_addr2 : str | None = None
+    cust_tel   : str | None = None
+    tax_id     : str | None = None
+
+    cmm  : str | None = None
+
+    UEDIT     : str | None = None
+    DEDIT     : datetime | None = None
+    cc_id     : str | None = None
+    doc_type  : str | None = None
+    chk_pay   : str | None = None
+    pay_type  : str | None = None
+
+    GrandTotal : float | None = None
+    discount   : float | None = None
+    discount_pers : float | None = None
+    discount_cash : float | None = None
+    TotalBeforeTax : float | None = None
+    total : float | None = None
+
+    cash_return : float | None = None
+    cash_receive : float | None = None
+    
+    bath_txt       : str | None = None
+    bath_txt_vat   : str | None = None
+    PRINT_VAT_TYPE : str | None = None
+
+
+class InvoiceRequest(BaseModel): 
+
+     saleHeader: InvoiceHeader 
+     # itemList:List[ItemListRequest]
 
 # class tbInvoiceHeader(BaseModel):    
 #     doc_id: str | None = None

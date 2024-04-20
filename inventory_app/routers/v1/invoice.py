@@ -2,14 +2,16 @@ import logging
 import configparser
 from sqlalchemy.exc import IntegrityError
 
+import json
+
 from typing import List
 from sqlalchemy.orm import Session
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException,Response
 from fastapi import APIRouter
 from bahttext import bahttext
 # from ... import crud,schemas
 from ...database import SessionLocal, engine
-from ...use_cases import  vItemAll as uc_vitemall , stockCard as uc_stockCard,invoice as uc_inv , current_datetime as cdate
+from ...use_cases import  vItemAll as uc_vitemall , stockCard as uc_stockCard,invoice as uc_inv , current_datetime as cdate , warehouses as wh ,user
 from ...dtos import Invoice,stockCard
 from ...loggings import log
 from ...utility import genidrandom , apiResponse
@@ -102,8 +104,6 @@ def invoice_save(request: Invoice.SaleHeaderRequest,
             print('>> Add Stockcard barcode XXX :',item.bar_code)
 
             # sql_text = "Update tbstockcardBF set qty=qty+(-"+str(item.qty)+") where bar_code='"+item.bar_code+"'  and wh_id='"+item.wh_id+"' and cc_id='"+item.cc_id+"' and zyear=2024 "
-
-
             itemStockCard = et_stockcard.TbStockCard(                                                                               
                                 bar_code = item.bar_code  
                                 ,doc_id = request.doc_id                            
@@ -139,4 +139,35 @@ def invoice_save(request: Invoice.SaleHeaderRequest,
         db.close()   
         return apiResponse.response(200, status=status, message=alert)
 
- 
+
+@router.get("/sales/print")
+def invoice_print( doc_id:str,cc_id:str,
+                   db: Session = Depends(get_db)) :
+    
+    log.info("router-warehouses -> create_warehouse")
+      
+    # doc_id = 'A01-IV2201100171'
+
+    db_invH = uc_inv.get_SaleHeader(db, doc_id=doc_id)    
+    db_invD = uc_inv.get_SaleDetail(db, doc_id=doc_id)    
+    db_wh = wh.get_warehouse_singleById(db, wh_id=db_invH.wh_id) 
+    db_user = user.get_singleById(db,db_invH.UEDIT)
+    # _result_inv = json.dumps(db_inv, ensure_ascii=False, encoding='utf8')
+
+    if (db_invH.pay_type=="CASH") :  
+        db_invH.pay_type = "เงินสด"
+    elif (db_invH.pay_type=="TRANS") :  
+        db_invH.pay_type = "โอนเงิน/พร้อมเพย์"
+    elif (db_invH.pay_type=="CREDIT") :  
+        db_invH.pay_type = "บัตรเครดิต"
+
+    curr_date,curr_datetime = cdate.get_current_datetime(db)
+    lastDateTime = curr_datetime.strftime("%Y-%m-%d %H:%M:%S")
+   #  return Response( _result_inv, media_type='application/json')
+    return { 
+             'warehouse': {db_wh} ,
+             'user' : {db_user} ,
+             'saleHeader' : {db_invH},
+             'saleDetail' : db_invD,
+             'current_date':lastDateTime,
+             }

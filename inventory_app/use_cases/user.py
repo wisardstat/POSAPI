@@ -31,6 +31,18 @@ def get_single(db: Session
     )
 
     return result
+
+def get_singleById(db: Session
+               ,user_id:str):
+
+    print('>>> get_singleById ', user_id)
+    result = (
+                db.query(et_user.User)
+                .filter( et_user.User.user_id == user_id )
+                .first()
+             )
+
+    return result
  
 
 def getBranch_list(db: Session ,_user_id :str ):
