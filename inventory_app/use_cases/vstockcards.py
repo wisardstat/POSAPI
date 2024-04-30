@@ -33,7 +33,7 @@ def getListByDoc(  db: Session
     result = ( db.query(
                         ent.vstockcard.wh_name,
                         ent.vstockcard.doc_date,
-                        ent.vstockcard.date_in,
+                        
                         ent.vstockcard.doc_id,
                         ent.vstockcard.type_doc,
                         ent.vstockcard.type_doc_id,
@@ -41,7 +41,8 @@ def getListByDoc(  db: Session
                         func.right( ent.vstockcard.doc_id,2).label("row_key"),                        
                         func.count(ent.vstockcard.doc_id.distinct()).label("count"),
                         func.sum( ent.vstockcard.qty).label("qty"),
-                        func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost"),
+                        func.max(ent.vstockcard.date_in).label("date_in"),
+#                         func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost"),
                         func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
                       ) 
               .filter(
@@ -66,8 +67,7 @@ def getListByDoc(  db: Session
                       )   
               .group_by(
                         ent.vstockcard.wh_name,
-                        ent.vstockcard.date_in,
-                        ent.vstockcard.doc_date,
+                        ent.vstockcard.doc_date,                        
                         ent.vstockcard.doc_id,
                         ent.vstockcard.type_doc,
                         ent.vstockcard.type_doc_id,

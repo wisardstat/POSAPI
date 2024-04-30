@@ -87,12 +87,14 @@ def SaleDetail_add(db: Session
         return SaleDetailData     
 
 
-def get_SaleHeader(db: Session, doc_id:str) :
-    return ( db.query(invoiceHeader.tbInvoiceHeader)
-             .filter(invoiceHeader.tbInvoiceHeader.doc_id == doc_id)
+def get_SaleHeader(db: Session, doc_id:str, cc_id:str) :
+    return ( db.query(invoiceHeader.vInvoiceHeader)
+             .filter( and_ (invoiceHeader.vInvoiceHeader.doc_id == doc_id
+                     ,invoiceHeader.vInvoiceHeader.cc_id == cc_id))
              .first() )
 
-def get_SaleDetail(db: Session, doc_id:str) :
-    return ( db.query(invoiceDetail.tbInvoiceDetail)
-             .filter(invoiceDetail.tbInvoiceDetail.doc_id == doc_id)
+def get_SaleDetail(db: Session, doc_id:str, cc_id:str) :
+    return ( db.query(invoiceDetail.vInvoiceDetail)
+             .filter( and_( invoiceDetail.vInvoiceDetail.doc_id == doc_id
+                     ,invoiceDetail.vInvoiceDetail.cc_id == cc_id) )
              .all() )

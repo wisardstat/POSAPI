@@ -148,8 +148,8 @@ def invoice_print( doc_id:str,cc_id:str,
       
     # doc_id = 'A01-IV2201100171'
 
-    db_invH = uc_inv.get_SaleHeader(db, doc_id=doc_id)    
-    db_invD = uc_inv.get_SaleDetail(db, doc_id=doc_id)    
+    db_invH = uc_inv.get_SaleHeader(db, doc_id=doc_id,cc_id=cc_id)    
+    db_invD = uc_inv.get_SaleDetail(db, doc_id=doc_id,cc_id=cc_id)    
     db_wh = wh.get_warehouse_singleById(db, wh_id=db_invH.wh_id) 
     db_user = user.get_singleById(db,db_invH.UEDIT)
     # _result_inv = json.dumps(db_inv, ensure_ascii=False, encoding='utf8')
@@ -171,3 +171,37 @@ def invoice_print( doc_id:str,cc_id:str,
              'saleDetail' : db_invD,
              'current_date':lastDateTime,
              }
+
+@router.get("/sales/header")
+async def get_invoiceHead(doc_id:str, cc_id:str
+                , db: Session = Depends(get_db))-> Invoice.vInvoiceHeader:
+    print('>> get_invoiceHead')
+    result = uc_inv.get_SaleHeader(db,doc_id,cc_id)  
+
+    if (result.pay_type=="CASH") :  
+        result.pay_type = "เงินสด"
+    elif (result.pay_type=="TRANS") :  
+        result.pay_type = "โอนเงิน/พร้อมเพย์"
+    elif (result.pay_type=="CREDIT") :  
+        result.pay_type = "บัตรเครดิต"
+     
+    if (result.chk_pay=="Y") :  
+        result.chk_pay = "ชำระเงินแล้ว"
+    else :
+        result.chk_pay = "รอชำระเงิน"
+
+    if (result==None) :
+        result=[]
+    
+    return result
+
+@router.get("/sales/detail")
+async def get_invoiceDetail(doc_id:str, cc_id:str
+                , db: Session = Depends(get_db))-> List[Invoice.vInvoiceDetail]:
+    print('>> get_invoiceDetail')
+    result = uc_inv.get_SaleDetail(db,doc_id,cc_id)  
+
+    if (result==None) :
+        result=[]
+    
+    return result

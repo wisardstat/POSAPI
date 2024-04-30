@@ -39,6 +39,10 @@ poetry init
 poetry add fastapi "uvicorn[standard]" pydantic email-validator
 ```
 
+เพิ่ม Library จาก requirements.txt ==> poetry
+```
+poetry add $(cat requirements.txt)
+```
 ## Run Fast-API
 To launch uvicorn:
 ```

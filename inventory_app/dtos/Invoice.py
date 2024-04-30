@@ -94,7 +94,7 @@ class InvoiceHeader(BaseModel):
     doc_id    : str | None = None
     doc_date  : date | None = None
     wh_id     : str | None = None
-
+    
     cust_id    : str | None = None
     cust_name  : str | None = None
     cust_addr1 : str | None = None
@@ -124,7 +124,79 @@ class InvoiceHeader(BaseModel):
     bath_txt       : str | None = None
     bath_txt_vat   : str | None = None
     PRINT_VAT_TYPE : str | None = None
+    class Config:
+        orm_mode = True
 
+
+class vInvoiceHeader(BaseModel):
+
+    doc_id    : str | None = None
+    doc_date  : date | None = None
+    wh_id     : str | None = None
+    wh_name   : str | None = None
+
+    cust_id    : str | None = None
+    cust_name  : str | None = None
+    cust_addr1 : str | None = None
+    cust_addr2 : str | None = None
+    cust_tel   : str | None = None
+    tax_id     : str | None = None
+
+    chk_pay    : str | None = None
+
+    cmm  : str | None = None
+
+    UEDIT     : str | None = None
+    USER_NAME : str | None = None
+    DEDIT     : datetime | None = None
+    cc_id     : str | None = None
+    doc_type  : str | None = None
+    type_doc_name  : str | None = None
+    chk_pay   : str | None = None
+    pay_type  : str | None = None
+
+    GrandTotal : float | None = None
+    discount   : float | None = None
+    discount_pers : float | None = None
+    discount_cash : float | None = None
+    TotalBeforeTax : float | None = None
+    total : float | None = None
+
+    tax : float | None = None
+    tax_ratio : float | None = None
+
+    cash_return : float | None = None
+    cash_receive : float | None = None
+    
+    bath_txt       : str | None = None
+    bath_txt_vat   : str | None = None
+    PRINT_VAT_TYPE : str | None = None
+    class Config:
+        orm_mode = True        
+
+class vInvoiceDetail(BaseModel):
+    seq       : str | None = None
+    doc_id    : str | None = None
+    bar_code  : str | None = None
+
+    pd_name    : str | None = None
+    group_name : str | None = None
+    brand_name : str | None = None
+    model_name : str | None = None
+    color      : str | None = None
+
+    cost      : float | None = None
+    price     : float | None = None
+    qty       : float | None = None
+    Amount    : float | None = None
+    unit_id   : str | None = None
+
+    UEDIT     : str | None = None
+    DEDIT     : datetime | None = None
+    cc_id     : str | None = None
+
+    class Config:
+        orm_mode = True
 
 class InvoiceRequest(BaseModel): 
 
