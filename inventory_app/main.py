@@ -22,7 +22,12 @@ app = FastAPI()
 origins = [    
     "http://localhost",
     "http://localhost:8000",
-    "http://localhost:4200",
+    "http://localhost:4200",      
+            
+    "http://45.32.102.157:8080", 
+    'https://d420-2401-c080-1400-5950-c8f5-f8d-81ab-d65a.ngrok-free.app'
+ 
+
 ]
 
 app.add_middleware(
