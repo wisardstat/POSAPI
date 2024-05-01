@@ -7,12 +7,13 @@ aioodbc and `async def` for path operation functions.
 # How to run:
 
 ## create virtual environment
+```
+python.exe -m pip install --upgrade pip
+```
 
 ```
 python -m venv venv
 ```
-
-
 
 ```
 # for linux
