@@ -12,6 +12,8 @@ aioodbc and `async def` for path operation functions.
 python -m venv venv
 ```
 
+
+
 ```
 # for linux
 source .venv/myproject/bin/activate
@@ -21,6 +23,12 @@ or
 venv\Scripts\activate.bat
 
 venv\Scripts\deactivate.bat
+```
+```
+pip install -r requirements.txt
+
+
+pip freeze > requirements.txt
 ```
 
 ## Creare Project by poentry
