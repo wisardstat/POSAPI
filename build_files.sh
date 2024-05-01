@@ -1,2 +1,2 @@
 
- pip install -i https://mirrors.aliyun.com/pypi/simple/ -r ./requirements.txt
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ -r ./requirements.txt
