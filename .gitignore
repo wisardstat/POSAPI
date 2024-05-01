@@ -6,3 +6,5 @@ inventory_app/use_cases/__pycache__/
 inventory_app/logs/app.log
 inventory_app/logs/app.log
 *.log
+*.pyc
+*.cpython-310.pyc
