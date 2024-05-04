@@ -19,6 +19,14 @@ def getListAll(db: Session, skip: int = 0, limit: int = 100):
         .all()
     )
 
+def getHistorySearch(db: Session,bar_code:str,cc_id:str):
+    return (
+        db.query(ent.vstockcard)
+        .filter( ent.vstockcard.bar_code == bar_code , ent.vstockcard.cc_id == cc_id )
+        .order_by(ent.vstockcard.date_in)        
+        .all()
+    )
+
 #***********************************  By-Document *****************************************#
 
 def getListByDoc(  db: Session

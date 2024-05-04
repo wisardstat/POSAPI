@@ -39,8 +39,8 @@ class vstockcard(Base):
     price      = Column(Float,  nullable=True ,default=0 )
     Total      = Column(Float,  nullable=True ,default=0 )
 
-    cust_id     = Column(String(100),  nullable=False ,default=None )
-    cust_fname  = Column(String(200),  nullable=False ,default=None )
+    cust_id     = Column(String(100),  nullable=True ,default=None )
+    cust_fname  = Column(String(200),  nullable=True ,default=None )
 
     cc_id       = Column(String(10))
     

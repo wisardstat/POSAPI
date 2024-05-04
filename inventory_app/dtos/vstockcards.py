@@ -6,13 +6,17 @@ class vstockcard(BaseModel):
     seq: int
     doc_id: str
     doc_date: datetime | None = None
-    type_doc_id: str
-    type_doc: str
+    date_in: datetime | None = None
+    type_doc_id: str | None = None
+    type_doc: str | None = None
     
     bar_code: str
 
     wh_id: str
     wh_name: str
+
+    cust_id: str| None = None
+    cust_fname: str| None = None
 
     group_id: str | None = None
     group_name: str | None = None
@@ -44,7 +48,7 @@ class vstockcard_getListByDoc(BaseModel):
     doc_id: str    
     type_doc: str    
     type_doc_id: str    
-    cust_fname: str    
+    cust_fname: str | None = None     
     row_key: int   
     count: int | None = None
     qty: int | None = None
