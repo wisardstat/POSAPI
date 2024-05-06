@@ -307,3 +307,183 @@ def getListByItem_Total(  db: Session
     print(' row >>',len(result))
 
     return result
+
+
+def daily_total_sale(db: Session, wh_id: str, doc_date_st: str = "", doc_date_en: str = "", type_doc: str = "", cc_id:str=""):
+
+    result = (
+        db.query(
+                 ent.vstockcard.wh_id
+                ,func.sum(func.abs( ent.vstockcard.qty)).label("qty")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
+                )
+        .filter(
+            and_(
+                or_(ent.vstockcard.wh_id == wh_id, wh_id == "", wh_id == "0")
+                ,or_(
+                    and_(
+                        ent.vstockcard.doc_date >= doc_date_st,
+                        ent.vstockcard.doc_date <= doc_date_en,
+                        ),
+                    doc_date_st == "",
+                    doc_date_st == "0",
+                  )               
+      
+                , ( ent.vstockcard.cc_id == cc_id ) 
+                , ( ent.vstockcard.type_doc_id == type_doc ) 
+            )
+        )
+        .group_by(
+                    ent.vstockcard.wh_id
+                 )
+        .all()
+    )
+
+    return result
+
+
+def daily_sale_bycust(db: Session, wh_id: str, doc_date_st: str = "", doc_date_en: str = "", cc_id:str=""):
+
+    result = (
+        db.query(
+                 ent.vstockcard.cust_id
+                ,ent.vstockcard.cust_fname
+                ,func.sum(func.abs( ent.vstockcard.qty)).label("qty")
+                # ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
+                )
+        .filter(
+            and_(
+                or_(ent.vstockcard.wh_id == wh_id, wh_id == "", wh_id == "0")
+                ,or_(
+                    and_(
+                        ent.vstockcard.doc_date >= doc_date_st,
+                        ent.vstockcard.doc_date <= doc_date_en,
+                        ),
+                    doc_date_st == "",
+                    doc_date_st == "0",
+                  )               
+      
+                , ( ent.vstockcard.cc_id == cc_id ) 
+                , ( ent.vstockcard.type_doc_id == "IV"  ) 
+            )
+        )
+        .group_by(
+                   ent.vstockcard.cust_id
+                  ,ent.vstockcard.cust_fname
+                 )
+         .order_by(func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).desc())        
+        .all()
+    )
+
+    return result
+
+def daily_sale_byDate(db: Session, wh_id: str, doc_date_st: str = "", doc_date_en: str = "", cc_id:str=""):
+
+    result = (
+        db.query(
+                 ent.vstockcard.doc_date            
+                ,func.sum(func.abs( ent.vstockcard.qty)).label("qty")
+                ,func.sum(func.abs( ent.vstockcard.qty_si)).label("qty_si")
+                ,func.sum(func.abs( ent.vstockcard.qty_iv)).label("qty_iv")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
+                )
+        .filter(
+            and_(
+                or_(ent.vstockcard.wh_id == wh_id, wh_id == "", wh_id == "0")
+                ,or_(
+                    and_(
+                        ent.vstockcard.doc_date >= doc_date_st,
+                        ent.vstockcard.doc_date <= doc_date_en,
+                        ),
+                    doc_date_st == "",
+                    doc_date_st == "0",
+                  )               
+      
+                , ( ent.vstockcard.cc_id == cc_id ) 
+               
+            )
+        )
+        .group_by(
+                   ent.vstockcard.doc_date                  
+                 )
+        .all()
+    )
+
+    return result
+
+def daily_sale_byCategory(db: Session, wh_id: str, doc_date_st: str = "", doc_date_en: str = "", cc_id:str=""):
+
+    result = (
+        db.query(
+                 ent.vstockcard.group_name            
+                ,func.sum(func.abs( ent.vstockcard.qty)).label("qty")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
+                )
+        .filter(
+            and_(
+                or_(ent.vstockcard.wh_id == wh_id, wh_id == "", wh_id == "0")
+                ,or_(
+                    and_(
+                        ent.vstockcard.doc_date >= doc_date_st,
+                        ent.vstockcard.doc_date <= doc_date_en,
+                        ),
+                    doc_date_st == "",
+                    doc_date_st == "0",
+                  )               
+      
+                , ( ent.vstockcard.cc_id == cc_id ) 
+                , ( ent.vstockcard.type_doc_id == "IV"  ) 
+            )
+        )
+        .group_by(
+                   ent.vstockcard.group_name                  
+                 )
+        .order_by(
+                   func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).desc()
+                 )                 
+        .all()
+    )
+
+    return result
+
+
+def daily_sale_bybrand(db: Session, wh_id: str, doc_date_st: str = "", doc_date_en: str = "", cc_id:str=""):
+
+    result = (
+        db.query(
+                 ent.vstockcard.brand_name            
+                ,func.sum(func.abs( ent.vstockcard.qty)).label("qty")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.cost )).label("amt_cost")
+                ,func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).label("amt_price"),                        
+                )
+        .filter(
+            and_(
+                or_(ent.vstockcard.wh_id == wh_id, wh_id == "", wh_id == "0")
+                ,or_(
+                    and_(
+                        ent.vstockcard.doc_date >= doc_date_st,
+                        ent.vstockcard.doc_date <= doc_date_en,
+                        ),
+                    doc_date_st == "",
+                    doc_date_st == "0",
+                  )               
+      
+                , ( ent.vstockcard.cc_id == cc_id ) 
+                , ( ent.vstockcard.type_doc_id == "IV"  ) 
+            )
+        )
+        .group_by(
+                   ent.vstockcard.brand_name                  
+                 )
+        .order_by(
+                   func.sum(func.abs( ent.vstockcard.qty*ent.vstockcard.price )).desc()
+                 )                 
+        .all()
+    )
+
+    return result
+

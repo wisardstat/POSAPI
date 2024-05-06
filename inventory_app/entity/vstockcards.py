@@ -36,6 +36,8 @@ class vstockcard(Base):
     
     qty        = Column(Integer)
     qty_abs    = Column(Integer)
+    qty_iv    = Column(Integer)
+    qty_si    = Column(Integer)
     price      = Column(Float,  nullable=True ,default=0 )
     Total      = Column(Float,  nullable=True ,default=0 )
 

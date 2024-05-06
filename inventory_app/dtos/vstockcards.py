@@ -1,6 +1,6 @@
 from typing import List, Optional
 from pydantic import BaseModel
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta,date
 
 class vstockcard(BaseModel):
     seq: int
@@ -108,3 +108,39 @@ class BarcodeExistsRequest(BaseModel):
     bar_code: str  | None = None
     group_id: str  | None = None
     cc_id: str 
+
+
+
+class daily_bycust(BaseModel):
+    cust_id    : str  | None = None
+    cust_fname : str  | None = None
+    amt_price  : float  | None = None
+    class Config:
+        orm_mode = True     
+
+class daily_bydate(BaseModel):
+    doc_date    : date  | None = None
+    qty  : int  | None = None
+    qty_si  : int  | None = None
+    qty_iv  : int  | None = None
+    amt_cost  : float  | None = None
+    amt_price  : float  | None = None
+    class Config:
+        orm_mode = True     
+
+
+class daily_bycategory(BaseModel):    
+    group_name : str  | None = None
+    qty  : int  | None = None
+    amt_cost  : float  | None = None
+    amt_price  : float  | None = None
+    class Config:
+        orm_mode = True             
+
+class daily_bybrand(BaseModel):    
+    brand_name : str  | None = None
+    qty  : int  | None = None
+    amt_cost  : float  | None = None
+    amt_price  : float  | None = None
+    class Config:
+        orm_mode = True                     
