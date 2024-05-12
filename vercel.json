@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "devCommand": "uvicorn inventory_app.main:app --reload --port 8080",
+    "devCommand": "uvicorn inventory_app.main:app --reload",
     "builds": [
         {
             "src": "build_files.sh",
