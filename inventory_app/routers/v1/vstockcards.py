@@ -162,6 +162,9 @@ async def getListByItem(
                                         , find_pd_name =find_pd_name                                      
                                         , skip=skip
                                         , limit=limit)
+    
+
+
     return vstockcard
         
 

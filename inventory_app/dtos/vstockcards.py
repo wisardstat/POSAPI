@@ -73,15 +73,15 @@ class vstockcard_getListByItem(BaseModel):
     wh_name: str
     doc_date: datetime | None = None    
     date_in: datetime | None = None        
-    doc_id: str    
-    type_doc: str    
-    type_doc_id: str    
-    group_name: str    
-    brand_name: str    
-    model_name: str    
-    pd_name: str    
-    cust_fname: str    
-    row_key: int   
+    doc_id: str   | None = None        
+    type_doc: str    | None = None       
+    type_doc_id: str   | None = None        
+    group_name: str    | None = None       
+    brand_name: str | None = None          
+    model_name: str  | None = None         
+    pd_name: str    | None = None       
+    cust_fname: str   | None = None        
+    row_key: int    | None = None      
     
     count: int | None = None
     qty: int | None = None

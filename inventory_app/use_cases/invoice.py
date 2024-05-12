@@ -1,10 +1,10 @@
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy import  and_ ,or_
+from sqlalchemy import  and_ ,or_ , func
 from ..dtos import Invoice 
 from datetime import datetime, timedelta,date
 
-from ..entity import invoiceHeader,invoiceDetail
+from ..entity import invoiceHeader as enh,invoiceDetail
 from bahttext import bahttext
 
 def saleHeaer_add(db: Session
@@ -20,7 +20,7 @@ def saleHeaer_add(db: Session
     bath_txt     =  bahttext(float( request.total))
     bath_txt_vat =  bahttext(float( request.TotalBeforeTax))
     
-    SaleHeaderData = invoiceHeader.tbInvoiceHeader(
+    SaleHeaderData = enh.tbInvoiceHeader(
         doc_id= request.doc_id,
         doc_date= request.doc_date,
         wh_id= request.wh_id,    
@@ -88,9 +88,9 @@ def SaleDetail_add(db: Session
 
 
 def get_SaleHeader(db: Session, doc_id:str, cc_id:str) :
-    return ( db.query(invoiceHeader.vInvoiceHeader)
-             .filter( and_ (invoiceHeader.vInvoiceHeader.doc_id == doc_id
-                     ,invoiceHeader.vInvoiceHeader.cc_id == cc_id))
+    return ( db.query(enh.vInvoiceHeader)
+             .filter( and_ (enh.vInvoiceHeader.doc_id == doc_id
+                     ,enh.vInvoiceHeader.cc_id == cc_id))
              .first() )
 
 def get_SaleDetail(db: Session, doc_id:str, cc_id:str) :
@@ -98,3 +98,26 @@ def get_SaleDetail(db: Session, doc_id:str, cc_id:str) :
              .filter( and_( invoiceDetail.vInvoiceDetail.doc_id == doc_id
                      ,invoiceDetail.vInvoiceDetail.cc_id == cc_id) )
              .all() )
+
+def get_SaleByOfficer(db: Session ,wh_id:str, doc_date_st:date,doc_date_en:date, cc_id:str) :
+    
+    return ( db.query(
+                         enh.vInvoiceHeader.UEDIT.label("user_id")
+                        ,enh.vInvoiceHeader.USER_NAME.label("offier_name")
+                        ,func.sum(enh.vInvoiceHeader.total).label("grand_total")
+                      )
+             .filter(
+                        and_(
+                                enh.vInvoiceHeader.doc_date >= doc_date_st,
+                                enh.vInvoiceHeader.doc_date <= doc_date_en,
+                                enh.vInvoiceHeader.cc_id == cc_id,
+                                enh.vInvoiceHeader.wh_id == wh_id
+                                )
+                      )
+             .group_by(
+                 enh.vInvoiceHeader.UEDIT.label("user_id")
+                 , enh.vInvoiceHeader.USER_NAME
+             )
+             .all() 
+             
+             )
