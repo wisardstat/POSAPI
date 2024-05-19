@@ -5,6 +5,7 @@ from ..database import Base
 class TbModel(Base):
     
     __tablename__ = "v_model"
+    __table_args__ = {"schema": "dbo"}
     
     model_id    = Column(String(255), primary_key=True, index=True)
     model_name  = Column(String(255))

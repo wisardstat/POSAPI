@@ -3,7 +3,8 @@ from ..database import Base
 
 class TbProductM(Base):
     __tablename__ = 'TbProductM'
-
+    __table_args__ = {"schema": "dbo"}
+    
     pd_id = Column(String(50), primary_key=True)
     pd_name = Column(String(200))
     group_id = Column(String(20))

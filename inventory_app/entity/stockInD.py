@@ -3,7 +3,8 @@ from ..database import Base
 
 class TbStockInD(Base):
     __tablename__ = 'tbStock_in_d'  
-
+    __table_args__ = {"schema": "dbo"}
+    
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id = Column(String(30), ForeignKey('tbStock_in_h.doc_id'))  
     bar_code = Column(String(50), nullable=True)

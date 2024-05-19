@@ -6,6 +6,7 @@ from ..entity import user as et_user ,userBranch
 
 def get_list(db: Session, skip: int = 0, limit: int = 10):
 
+    print('>>> _user - get_list')
     result = (
         db.query(et_user.User)
         .order_by(et_user.User.user_id)

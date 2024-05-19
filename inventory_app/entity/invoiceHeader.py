@@ -4,7 +4,8 @@ from ..database import Base
 class tbInvoiceHeader(Base):
 
     __tablename__ = 'TbInvoice_head' 
-
+    __table_args__ = {"schema": "dbo"}
+    
     doc_id    = Column(String(30), primary_key=True)
     doc_date  = Column(DATE, nullable=True)
     wh_id     = Column(String(20), nullable=True)    
@@ -51,6 +52,7 @@ class tbInvoiceHeader(Base):
 class vInvoiceHeader(Base):
 
     __tablename__ = 'vInvoiceHead' 
+    __table_args__ = {"schema": "dbo"}
 
     doc_id    = Column(String(30), primary_key=True)
     doc_date  = Column(DATE, nullable=True)

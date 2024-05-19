@@ -5,7 +5,9 @@ from ..database import Base
 class TbIdRandom(Base):
     
     __tablename__ = 'IDRandom'
-    schema_name = 'dbo' 
+    __table_args__ = {"schema": "dbo"}
+
+    
     CrtID = Column(String(20))
     Frm = Column(String(20))
     TypeDoc = Column(String(1))

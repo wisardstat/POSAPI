@@ -3,7 +3,8 @@ from ..database import Base
 
 class TbSupply(Base):
     __tablename__ = 'TbSupply' 
-
+    __table_args__ = {"schema": "dbo"}
+    
     supply_id = Column(String(20), primary_key=True)
     supply_name = Column(String(150), nullable=True)
     supply_addr = Column(String(250), nullable=True)    

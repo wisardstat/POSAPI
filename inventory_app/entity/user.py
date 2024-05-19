@@ -1,9 +1,11 @@
 from sqlalchemy import Column, String 
 from ..database import Base
+import configparser
+ 
 
 class User(Base):
-
     __tablename__ = 'v_User' 
+    __table_args__ = {"schema": "dbo"}
 
     user_id = Column(String(30), primary_key=True)
     user_name = Column(String(50), nullable=True)

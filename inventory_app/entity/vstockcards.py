@@ -7,7 +7,8 @@ from ..database import Base
 class vstockcard(Base):
     
     __tablename__ = "v_stockCard"
-    schema="dbo"
+    __table_args__ = {"schema": "dbo"}
+    
     seq         = Column(Integer, primary_key=True, index=True)
     doc_id      = Column(String(50))
     doc_date    = Column(DateTime,default=datetime.datetime.utcnow)

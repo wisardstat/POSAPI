@@ -3,7 +3,8 @@ from ..database import Base
 
 class TbStockInH(Base):
     __tablename__ = 'tbStock_in_h'  
-
+    __table_args__ = {"schema": "dbo"}
+    
     doc_id = Column(String(30), primary_key=True)
     doc_date = Column(DateTime, nullable=True)
     wh_id = Column(String(10), nullable=True)    

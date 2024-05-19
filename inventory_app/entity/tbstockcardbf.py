@@ -5,6 +5,7 @@ from ..database import Base
 class stockcardBF(Base):
     
     __tablename__ = "tbStockcardBF"
+    __table_args__ = {"schema": "dbo"}
     
     zyear  = Column(Integer, primary_key=True, index=True)
     wh_id  = Column(String(10))

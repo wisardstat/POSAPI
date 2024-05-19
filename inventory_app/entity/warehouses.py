@@ -7,7 +7,8 @@ from ..database import Base
 class tbwareHouse(Base):
     
     __tablename__ = "tbWareHouse"
-    schema="dbo"
+    __table_args__ = {"schema": "dbo"}
+    
     wh_id     = Column(String(255), primary_key=True, index=True)
     wh_name   = Column(String(255))
     wh_group  = Column(String(50))

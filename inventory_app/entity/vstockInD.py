@@ -3,6 +3,7 @@ from ..database import Base
 
 class vStockInD(Base):
     __tablename__ = 'v_StockInDetail'  
+    __table_args__ = {"schema": "dbo"}
 
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id = Column(String(30), ForeignKey('tbStock_in_h.doc_id'))  

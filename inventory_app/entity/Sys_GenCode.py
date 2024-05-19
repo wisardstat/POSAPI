@@ -6,6 +6,7 @@ from ..database import Base
 class Sys_GenCode(Base):
     
     __tablename__ = "IDRandom"
+    __table_args__ = {"schema": "dbo"}
     
     # CrtID,Frm,TypeDoc,IDNum,cc_id
 
