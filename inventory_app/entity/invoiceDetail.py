@@ -3,6 +3,7 @@ from ..database import Base
 
 class tbInvoiceDetail(Base):
     __tablename__ = 'TbInvoice_detail' 
+    __table_args__ = {"schema": "dbo"}
 
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id    = Column(String(30), nullable=True)    
@@ -20,6 +21,7 @@ class tbInvoiceDetail(Base):
     
 class vInvoiceDetail(Base):
     __tablename__ = 'vInvoiceDetail' 
+    __table_args__ = {"schema": "dbo"}
 
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id    = Column(String(30), nullable=True)    

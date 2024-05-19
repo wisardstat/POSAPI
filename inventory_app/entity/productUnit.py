@@ -3,7 +3,8 @@ from ..database import Base
 
 class TbProductUnit(Base):
     __tablename__ = 'tbProduct_unit'
-
+    __table_args__ = {"schema": "dbo"}
+    
     bar_code = Column(String(50))  
     pd_id = Column(String(50), nullable=False)
     seq = Column(Integer, primary_key=True)    

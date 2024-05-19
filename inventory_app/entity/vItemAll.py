@@ -5,7 +5,8 @@ from ..database import Base
 
 class vItemAll(Base):
     __tablename__ = 'vitemall'
-
+    __table_args__ = {"schema": "dbo"}
+    
     wh_id       = Column(String(50), primary_key=True, index=True)    
     wh_name     = Column(String(100))    
     bar_code    = Column(String(50))

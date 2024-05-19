@@ -15,8 +15,11 @@ SQLALCHEMY_DATABASE_URL = (
     "mssql+pyodbc://{0}:%s@{1}:{2}/{3}?driver=ODBC+Driver+17+for+SQL+Server&schema=dbo".format(user,server,port,database)%quote(password)   
 )
 
+dbschema='wisard_pos_mai' # Searches left-to-right
+
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL,
+     connect_args={'options': '-csearch_path={}'.format(dbschema)}
     # connect_args={"check_same_thread": False},  # only needed for SQLite
 )
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

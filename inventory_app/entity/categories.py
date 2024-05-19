@@ -7,6 +7,8 @@ from ..database import Base
 class tbcategory(Base):
     
     __tablename__ = "TbGroup_item"
+    __table_args__ = {"schema": "dbo"}
+    
     schema="dbo"
     group_id   = Column(String(255), primary_key=True, index=True)
     group_name = Column(String(255))

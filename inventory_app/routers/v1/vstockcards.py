@@ -162,6 +162,9 @@ async def getListByItem(
                                         , find_pd_name =find_pd_name                                      
                                         , skip=skip
                                         , limit=limit)
+    
+
+
     return vstockcard
         
 
@@ -205,3 +208,15 @@ async def getListByItem_Total(
                                         , skip=skip
                                         , limit=limit)
     return vstockcard        
+
+@router.get("/vstockcard/history_search")
+async def getHistorySearch(bar_code:str
+                            ,cc_id:str
+                            ,db: Session = Depends(get_db))-> List[dtos.vstockcard]:
+                                                          
+    vstockcard = usecase.getHistorySearch(db,bar_code,cc_id)
+
+    return vstockcard      
+
+    
+

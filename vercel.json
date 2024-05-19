@@ -1,10 +1,10 @@
 {
     "version": 2,
+    "devCommand": "uvicorn inventory_app.main:app --reload",
     "builds": [
         {
             "src": "build_files.sh",
-            "use": "@vercel/python"
-            
+            "use": "@vercel/python"            
         }
           
     ],
@@ -12,6 +12,12 @@
         {
             "src": "/(.*)",
             "dest": "inventory_app/main.py"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "inventory_app/main.py"
         }
     ]
 }

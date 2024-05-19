@@ -4,7 +4,8 @@ from ..database import Base
 class UserBranch(Base):
 
     __tablename__ = 'v_UserBranch' 
-
+    __table_args__ = {"schema": "dbo"}
+    
     wh_id = Column(String(30), primary_key=True)
     wh_name = Column(String(100), nullable=True)
     user_id = Column(String(20), nullable=True)

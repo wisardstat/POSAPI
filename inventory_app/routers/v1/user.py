@@ -6,6 +6,11 @@ from typing import List
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi import APIRouter
+
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import unpad
+import base64
+
 #from ... import crud,schemas
 from ...database import SessionLocal, engine
 from ...use_cases import user as uc_user
@@ -39,7 +44,20 @@ async def get_single( user:str='wisard',password:str='wds6597', db: Session = De
     print(">> user/ get_single")
     log.info("info-router-user -> user/ get_single")
 
-    result = uc_user.get_single(db,user,password)
+    print('==================================')
+    print( '>> Get Password : '+password )
+
+    enc = password
+    key = "d2dpos@topgunner"
+    iv =  'd2d@linkin#park!'.encode('utf-8') #16 char for AES128
+
+    enc = base64.b64decode(enc)
+    cipher = AES.new(key.encode('utf-8'), AES.MODE_CBC, iv)
+    password_decryption = unpad(cipher.decrypt(enc),16).decode('utf-8')
+    
+    print( 'Password : '+password_decryption )
+
+    result = uc_user.get_single(db,user,password_decryption)
     
     if (result==None):    
         print('+++ None data !! +++')      

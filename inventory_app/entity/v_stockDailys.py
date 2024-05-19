@@ -7,7 +7,8 @@ from ..database import Base
 class v_stockDaily(Base):
     
     __tablename__ = "v_stockDaily"
-    schema="dbo"
+    __table_args__ = {"schema": "dbo"}
+    
     seq         = Column(Integer, primary_key=True, index=True)    
     cc_id       = Column(String(10))
     

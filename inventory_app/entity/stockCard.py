@@ -4,7 +4,8 @@ from ..database import Base
 
 class TbStockCard(Base):
     __tablename__ = 'TbStockCard'
-
+    __table_args__ = {"schema": "dbo"}
+    
     seq = Column(Integer, primary_key=True, index=True)    
     doc_id = Column(String(30), nullable=False)
     doc_date = Column(DateTime)
