@@ -4,15 +4,15 @@ from ..entity import menu as et_menu , sub_menu as et_submenu , group_user_menu
 
 
 def get_menus_by_group_user_id(db: Session, group_user_id: str):
-      
-   group_user_menus = db.query(group_user_menu.GroupUserMenu).filter(
-         group_user_menu.GroupUserMenu.group_user_id == group_user_id
-      ).all()
+
+   print('group_user_id=>',group_user_id)
    
+   group_user_menus = db.query(group_user_menu.GroupUserMenu).filter(group_user_menu.GroupUserMenu.group_user_id == group_user_id).all()
+      
    main_menu_ids = set(gum.menu_id for gum in group_user_menus if gum.sub_menu_id is None)
 
    main_menus = db.query(et_menu.Menu).filter(et_menu.Menu.id.in_(main_menu_ids)).all()
-   
+    
    menu_data = []
    for menu in main_menus:
  
@@ -28,6 +28,8 @@ def get_menus_by_group_user_id(db: Session, group_user_id: str):
             et_submenu.SubMenu.parent_id == menu.id
          ).all()
             
+      print('menu.menu_name=>',menu.menu_name)    
+
       menu_dict = {
             "title": menu.menu_name,
             "icon": sub_menus[0].icon,
@@ -46,5 +48,6 @@ def get_menus_by_group_user_id(db: Session, group_user_id: str):
             })
 
       menu_data.append(menu_dict)
-         
+
+        
    return menu_data

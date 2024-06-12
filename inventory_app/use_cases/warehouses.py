@@ -1,8 +1,7 @@
 from sqlalchemy.orm import Session
 from ..entity import warehouses as ent
 from ..dtos import warehouses as schemas
-
-
+ 
 def get_warehouse_single(db: Session, wh_name: str):    
     return db.query(ent.tbwareHouse).filter(ent.tbwareHouse.wh_name == wh_name).first()
 
@@ -15,7 +14,7 @@ def get_warehouse_name(db: Session, wh_id: str):
     if wh != None:                    
         return wh.wh_name
     else :
-        return 'NONE'
+        return 'NONE' 
 
 def get_warehouse(db: Session, skip: int = 0, limit: int = 10):
     return (
@@ -37,4 +36,5 @@ def create_warehouse(db: Session, wh: schemas.warehouseCreate):
     db.add(db_wh)
     db.commit()
     db.refresh(db_wh)
+    
     return db_wh

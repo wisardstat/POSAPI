@@ -3,7 +3,9 @@ from ..database import Base
 
 
 class GroupUserMenu(Base):
-    __tablename__ = 'group_user_menu'
+    __tablename__  = 'Tbms_Group_user_menu'
+    __table_args__ = {"schema": "dbo"}
+    
     id =  Column(Integer, primary_key=True)  
     group_user_id = Column(String(10))  
     menu_id = Column(Integer)
