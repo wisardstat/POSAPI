@@ -8,11 +8,15 @@ def get_menus_by_group_user_id(db: Session, group_user_id: str):
    print('group_user_id=>',group_user_id)
    
    group_user_menus = db.query(group_user_menu.GroupUserMenu).filter(group_user_menu.GroupUserMenu.group_user_id == group_user_id).all()
-      
+   
+   print('group_user_menus=>',group_user_menus)      
+
    main_menu_ids = set(gum.menu_id for gum in group_user_menus if gum.sub_menu_id is None)
 
    main_menus = db.query(et_menu.Menu).filter(et_menu.Menu.id.in_(main_menu_ids)).all()
-    
+   
+   print('main_menus=>',main_menus)    
+
    menu_data = []
    for menu in main_menus:
  

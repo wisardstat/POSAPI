@@ -3096,3 +3096,412 @@
 12-Jun-24 22:31:25 -INFO- main - Reload
 12-Jun-24 22:32:51 -INFO- main - Reload
 12-Jun-24 22:39:27 -INFO- main - Reload
+12-Jun-24 22:39:30 -INFO- main - Reload
+16-Jun-24 14:25:24 -INFO- main - Reload
+16-Jun-24 14:25:30 -INFO- main - Reload
+16-Jun-24 14:32:20 -INFO- main - Reload
+16-Jun-24 14:32:22 -INFO- main - Reload
+16-Jun-24 14:33:20 -INFO- main - Reload
+16-Jun-24 14:37:51 -INFO- info-router-user -> user/ get_single
+16-Jun-24 14:37:51 -INFO- info-router-user -> user/ get_BranchList
+16-Jun-24 14:37:56 -INFO- router-dashboard -> default
+16-Jun-24 14:40:14 -INFO- info-router-user -> user/ get_single
+16-Jun-24 14:40:14 -INFO- info-router-user -> user/ get_BranchList
+16-Jun-24 14:40:19 -INFO- router-dashboard -> default
+16-Jun-24 14:41:18 -INFO- router-dashboard -> default
+16-Jun-24 14:41:20 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:41:20 -INFO- router-category -> read_category
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:41:20 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:41:20 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:41:20 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:31 -INFO- router-category -> read_category
+16-Jun-24 14:47:31 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:31 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:47:31 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> type_doc_id =IV
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:31 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:42 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:47:42 -INFO- router-category -> read_category
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:42 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:47:42 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:42 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:46 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:47:46 -INFO- router-category -> read_category
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> getListByItem +++++++++++++++++++++
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> group_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> brand_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> model_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> pd_name =
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:46 -INFO- router-Model -> read_model
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> getListByItem +++++++++++++++++++++
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> group_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> brand_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> model_id =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> pd_name =
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:46 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:46 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:47:46 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:47:48 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:47:48 -INFO- router-category -> read_category
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:48 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:47:48 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:48 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:53 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:47:53 -INFO- router-category -> read_category
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:53 -INFO- info-router-type_doc -> read_type_doc
+16-Jun-24 14:47:53 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> getListByDoc
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date =2024-05-18
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> getListByDoc_Total
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> wh_id =W001
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> type_doc_id =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> skip =0
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> limit =1000
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date_st =2024-05-18
+16-Jun-24 14:47:53 -INFO- router-vstockcard -> doc_date_en =2024-05-18
+16-Jun-24 14:48:03 -INFO- router-Customer -> getList 
+16-Jun-24 14:48:06 -INFO- router-dashboard -> default
+16-Jun-24 14:58:00 -INFO- router-dashboard -> default
+16-Jun-24 14:58:25 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> GroupByModel
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:25 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:32 -INFO- router-category -> read_category
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:32 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> GroupByModel
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:32 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> GroupByModel
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:45 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> GroupByModel
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:52 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:58:53 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:02 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 14:59:02 -INFO- router-category -> read_category
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:02 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:03 -INFO- router-Model -> read_model
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:03 -INFO- info-router-brand -> read_brand
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> type_rp =
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:03 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> wh_id =W001
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:06 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> categoty_id =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:11 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> categoty_id =G031
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> +++++++++++++++++++
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> getListGroupByItem
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> brand_id =0
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> categoty_id =G031
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> wh_id =W002
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> type_rp =EXISTS
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> stock_date =2024-05-18
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> skip =0
+16-Jun-24 14:59:42 -INFO- router-stockDailys -> limit =1000
+16-Jun-24 15:15:20 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:15:51 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:17:01 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:17:25 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:18:16 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:18:18 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:18:45 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:18:49 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:19:03 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:19:26 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:19:34 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:19:59 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:21:00 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:21:06 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:21:13 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:21:19 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:21:25 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:22:07 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:22:26 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:22:38 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:22:59 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:23:14 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:28:55 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:43:48 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 15:44:19 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:50:04 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:51:00 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:51:32 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:52:22 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:52:32 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:52:48 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:57:22 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 16:57:45 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:02:56 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:03:10 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:03:13 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:03:20 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:03:30 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:04:21 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:04:51 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:06:18 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:06:20 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:08:18 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:09:01 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:09:08 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:17:04 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:19:01 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:19:36 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:19:58 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:20:16 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:21:12 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:30:23 -INFO- router-warehouses -> read_warehouses
+16-Jun-24 17:33:49 -INFO- router-warehouses -> read_warehouses
