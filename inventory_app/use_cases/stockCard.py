@@ -3,7 +3,7 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy import text
 
 from ..entity import stockCard as ent
-from ..dtos import stockIn, stockCard
+from ..dtos import stockIn, stockCard ,stockMove
 from ..use_cases import current_datetime as cdate
 
 
@@ -48,6 +48,39 @@ def add_StockCard(db: Session, itemStockCard: ent.TbStockCard):
         db.refresh(itemStockCard)
         if itemStockCard:
             print(">> Data inserted >> TbStockCard << successfully!!")
+            return itemStockCard
+
+    except IntegrityError as e:
+        db.rollback()
+        print(f">>> Error updating record: {e}")
+    finally:
+        db.close()
+
+def add_StockMoveCard(db: Session, stockMove:stockMove.StockMoveRequest,stockMoveItem:stockMove.ItemDetail):
+
+    try:
+ 
+        print(">>> Function : add_StockMoveCard")
+        curr_date, curr_datetime = cdate.get_current_datetime(db)
+        formatted_date_in = curr_datetime.strftime("%Y-%m-%d %H:%M:%S")
+        
+        itemStockCard = ent.TbStockCard(      
+        doc_id = stockMove.doc_id,
+        doc_date = stockMove.doc_date,
+        type_doc = stockMove.type_doc,
+        bar_code = stockMoveItem.bar_code,
+        cc_id = stockMove.cc_id,
+        qty = stockMoveItem.qty,
+        wh_id = stockMoveItem.wh_id,
+        cost = stockMoveItem.cost,
+        date_in = formatted_date_in
+        )
+        
+        db.add(itemStockCard)
+        db.commit()
+        db.refresh(itemStockCard)
+        if itemStockCard:
+            print(">> Data inserted >> add_StockMoveCard << successfully!!")
             return itemStockCard
 
     except IntegrityError as e:
